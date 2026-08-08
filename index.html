@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IELTS Practice</title>
+<style>
+  :root{
+    --bg:#f5f6f8; --panel:#ffffff; --ink:#1b1f27; --sub:#5b6472;
+    --line:#e3e6eb; --accent:#2f6fed; --accent-ink:#ffffff;
+    --good:#1c8a4b; --bad:#c9432c; --warn:#b8860b;
+    --chip:#eef2ff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans TC",sans-serif;background:var(--bg);color:var(--ink);}
+  header{background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px;}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;}
+  header h1{font-size:18px;margin:0;font-weight:700;letter-spacing:.3px;}
+  nav{display:flex;gap:4px;}
+  nav button{border:none;background:transparent;color:var(--sub);font-size:14px;font-weight:600;padding:8px 14px;border-radius:8px;cursor:pointer;}
+  nav button.active{background:var(--accent);color:var(--accent-ink);}
+  main{max-width:960px;margin:0 auto;padding:24px 20px 80px;}
+  .view{display:none;} .view.active{display:block;}
+
+  /* list cards */
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px;cursor:pointer;transition:box-shadow .15s, transform .15s;}
+  .card:hover{box-shadow:0 4px 14px rgba(20,30,60,.08);transform:translateY(-1px);}
+  .card h3{margin:0 0 4px;font-size:16px;}
+  .card p{margin:0;color:var(--sub);font-size:13px;}
+  .badge{display:inline-block;font-size:11px;font-weight:700;color:var(--accent);background:var(--chip);padding:2px 8px;border-radius:999px;margin-right:6px;}
+
+  /* passage/test view */
+  .backbtn{background:none;border:none;color:var(--accent);font-weight:600;cursor:pointer;font-size:14px;margin-bottom:14px;padding:0;}
+  .split{display:grid;grid-template-columns:1fr;gap:20px;}
+  @media(min-width:860px){.split{grid-template-columns:1.1fr 1fr;}}
+  .passage-box, .qbox{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;}
+  .passage-box{max-height:78vh;overflow-y:auto;position:sticky;top:76px;}
+  .passage-box h2{font-size:19px;margin-top:0;}
+  .passage-box p{line-height:1.75;font-size:14.5px;}
+  .para-label{font-weight:800;color:var(--accent);margin-right:6px;}
+  .qgroup{margin-bottom:26px;}
+  .qgroup h4{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--sub);margin:0 0 4px;}
+  .qgroup .instr{font-size:13px;color:var(--sub);margin-bottom:12px;font-style:italic;}
+  .heading-list{background:var(--chip);border-radius:8px;padding:10px 14px;font-size:13px;line-height:1.7;margin-bottom:12px;}
+  .qitem{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:14px;flex-wrap:wrap;}
+  .qitem .qn{font-weight:700;color:var(--sub);min-width:22px;}
+  .qitem select, .qitem input[type=text]{border:1px solid var(--line);border-radius:6px;padding:6px 8px;font-size:14px;}
+  .tfng label{display:inline-flex;align-items:center;gap:4px;margin-right:12px;font-size:13px;cursor:pointer;}
+  .qstatement{flex:1;min-width:220px;}
+  .result{font-size:12px;font-weight:700;margin-left:4px;}
+  .result.correct{color:var(--good);}
+  .result.wrong{color:var(--bad);}
+  .submitbar{background:var(--panel);border-top:1px solid var(--line);padding:14px 0;margin-top:10px;display:flex;align-items:center;justify-content:space-between;}
+  .submitbar button{background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;}
+  .score{font-weight:800;font-size:15px;}
+
+  /* writing/speaking */
+  .chip-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px;}
+  .chip-row span{background:var(--chip);color:var(--accent);font-size:12.5px;font-weight:600;padding:5px 12px;border-radius:999px;}
+  .section-title{font-size:15px;font-weight:800;margin:22px 0 10px;text-transform:capitalize;}
+  .prompt-item{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:8px;font-size:14px;line-height:1.6;}
+  .prompt-item .tag{font-size:11px;font-weight:700;color:#fff;background:#8b98ab;padding:1px 7px;border-radius:5px;margin-right:8px;}
+  .cue-card{background:var(--panel);border:1px dashed var(--line);border-radius:12px;padding:18px;font-size:14px;line-height:1.7;margin-bottom:10px;}
+  .flipbtn{background:var(--accent);color:#fff;border:none;padding:8px 16px;border-radius:8px;font-weight:700;cursor:pointer;font-size:13px;margin-bottom:16px;}
+  .part3set{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px;}
+  .part3set h4{margin:0 0 8px;font-size:14px;color:var(--accent);}
+  .part3set ul{margin:0;padding-left:18px;font-size:13.5px;line-height:1.8;}
+  .loading, .empty{color:var(--sub);padding:40px 0;text-align:center;font-size:14px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>📘 IELTS Practice</h1>
+    <nav>
+      <button data-tab="reading" class="active">Reading</button>
+      <button data-tab="writing">Writing</button>
+      <button data-tab="speaking">Speaking</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="view-reading" class="view active">
+    <div id="reading-list"><div class="loading">Loading reading bank…</div></div>
+    <div id="reading-test" style="display:none;"></div>
+  </section>
+
+  <section id="view-writing" class="view">
+    <div id="writing-list"><div class="loading">Loading writing bank…</div></div>
+  </section>
+
+  <section id="view-speaking" class="view">
+    <div id="speaking-list"><div class="loading">Loading speaking bank…</div></div>
+  </section>
+</main>
+
+<script>
+const state = { reading: null, writing: null, speaking: null, currentPassage: null };
+
+async function loadJSON(paths){
+  for(const p of paths){
+    try{
+      const res = await fetch(p);
+      if(res.ok) return await res.json();
+    }catch(e){}
+  }
+  return null;
+}
+
+async function init(){
+  state.reading = await loadJSON(['content/reading-bank.json','content/readingbank.json']);
+  state.writing = await loadJSON(['content/writing-bank.json','content/writingbank.json']);
+  state.speaking = await loadJSON(['content/speaking-bank.json','content/speakingbank.json']);
+  renderReadingList();
+  renderWriting();
+  renderSpeaking();
+}
+
+/* ---------- nav ---------- */
+document.querySelectorAll('nav button').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+    document.getElementById('view-'+btn.dataset.tab).classList.add('active');
+  });
+});
+
+/* ---------- reading ---------- */
+function renderReadingList(){
+  const el = document.getElementById('reading-list');
+  if(!state.reading || !state.reading.passages){ el.innerHTML='<div class="empty">找不到 reading-bank.json</div>'; return; }
+  el.innerHTML = state.reading.passages.map((p,i)=>{
+    const qcount = p.questions.reduce((s,g)=>s+g.items.length,0);
+    return `<div class="card" onclick="openPassage(${i})">
+      <span class="badge">Passage ${i+1}</span>
+      <h3>${p.title}</h3>
+      <p>${Object.keys(p.paragraphs).length} paragraphs · ${qcount} questions</p>
+    </div>`;
+  }).join('');
+}
+
+function openPassage(i){
+  state.currentPassage = state.reading.passages[i];
+  document.getElementById('reading-list').style.display='none';
+  const test = document.getElementById('reading-test');
+  test.style.display='block';
+  const p = state.currentPassage;
+
+  const paragraphsHTML = Object.entries(p.paragraphs).map(([label,text])=>
+    `<p><span class="para-label">${label}</span>${text}</p>`).join('');
+
+  const qgroupsHTML = p.questions.map((g,gi)=>{
+    let inner = '';
+    if(g.type === 'matching_headings'){
+      inner += `<div class="heading-list">${g.headings.join('<br>')}</div>`;
+      inner += g.items.map(it=>{
+        const opts = g.headings.map(h=>{
+          const val = h.split('.')[0].trim();
+          return `<option value="${val}">${val}</option>`;
+        }).join('');
+        return `<div class="qitem">
+          <span class="qn">${it.n}.</span>
+          <span class="qstatement">Paragraph ${it.paragraph}</span>
+          <select data-group="${gi}" data-n="${it.n}" data-answer="${it.answer}">
+            <option value="">--</option>${opts}
+          </select>
+          <span class="result" id="res-${it.n}"></span>
+        </div>`;
+      }).join('');
+    } else if(g.type === 'true_false_not_given'){
+      inner += g.items.map(it=>`<div class="qitem">
+          <span class="qn">${it.n}.</span>
+          <span class="qstatement">${it.statement}</span>
+          <span class="tfng">
+            ${['TRUE','FALSE','NOT GIVEN'].map(v=>`<label><input type="radio" name="q${it.n}" value="${v}" data-n="${it.n}" data-answer="${it.answer}"> ${v}</label>`).join('')}
+          </span>
+          <span class="result" id="res-${it.n}"></span>
+        </div>`).join('');
+    } else if(g.type === 'sentence_completion'){
+      inner += g.items.map(it=>`<div class="qitem">
+          <span class="qn">${it.n}.</span>
+          <span class="qstatement">${it.prompt}</span>
+          <input type="text" placeholder="answer" data-n="${it.n}" data-answer="${it.answer}" style="width:140px;">
+          <span class="result" id="res-${it.n}"></span>
+        </div>`).join('');
+    }
+    return `<div class="qgroup">
+      <h4>Questions ${g.group}</h4>
+      <div class="instr">${g.instructions}</div>
+      ${inner}
+    </div>`;
+  }).join('');
+
+  test.innerHTML = `
+    <button class="backbtn" onclick="closePassage()">&larr; Back to Reading list</button>
+    <div class="split">
+      <div class="passage-box">
+        <h2>${p.title}</h2>
+        ${paragraphsHTML}
+      </div>
+      <div class="qbox">
+        <form id="qform">${qgroupsHTML}</form>
+        <div class="submitbar">
+          <span class="score" id="scoreDisplay"></span>
+          <button type="button" onclick="gradePassage()">Check Answers</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function closePassage(){
+  document.getElementById('reading-test').style.display='none';
+  document.getElementById('reading-list').style.display='block';
+}
+
+function gradePassage(){
+  const form = document.getElementById('qform');
+  let correct=0, total=0;
+  form.querySelectorAll('select[data-answer]').forEach(sel=>{
+    total++;
+    const res = document.getElementById('res-'+sel.dataset.n);
+    if(sel.value && sel.value.toLowerCase()===sel.dataset.answer.toLowerCase()){ correct++; res.textContent='✓'; res.className='result correct'; }
+    else { res.textContent='✗ ('+sel.dataset.answer+')'; res.className='result wrong'; }
+  });
+  const seen = new Set();
+  form.querySelectorAll('input[type=radio][data-answer]').forEach(r=>{
+    if(seen.has(r.dataset.n)) return;
+    const checked = form.querySelector('input[name=q'+r.dataset.n+']:checked');
+    total++; seen.add(r.dataset.n);
+    const res = document.getElementById('res-'+r.dataset.n);
+    if(checked && checked.value===r.dataset.answer){ correct++; res.textContent='✓'; res.className='result correct'; }
+    else { res.textContent='✗ ('+r.dataset.answer+')'; res.className='result wrong'; }
+  });
+  form.querySelectorAll('input[type=text][data-answer]').forEach(inp=>{
+    total++;
+    const res = document.getElementById('res-'+inp.dataset.n);
+    const norm = s => (s||'').trim().toLowerCase();
+    if(norm(inp.value)===norm(inp.dataset.answer)){ correct++; res.textContent='✓'; res.className='result correct'; }
+    else { res.textContent='✗ ('+inp.dataset.answer+')'; res.className='result wrong'; }
+  });
+  document.getElementById('scoreDisplay').textContent = `Score: ${correct} / ${total}`;
+}
+
+/* ---------- writing ---------- */
+function renderWriting(){
+  const el = document.getElementById('writing-list');
+  if(!state.writing){ el.innerHTML='<div class="empty">找不到 writing-bank.json</div>'; return; }
+  let html = '<div class="section-title">Task 1 — Academic</div>';
+  html += (state.writing.task1_academic||[]).map(t=>
+    `<div class="prompt-item"><span class="tag">${t.chart_type}</span>${t.prompt}</div>`).join('');
+
+  html += '<div class="section-title">Task 2 — Essay</div>';
+  const cats = state.writing.task2_essay || {};
+  Object.entries(cats).forEach(([cat, prompts])=>{
+    html += `<div class="section-title" style="font-size:13px;color:var(--sub);margin-top:16px;">${cat.replace(/_/g,' ')}</div>`;
+    html += prompts.map(p=>`<div class="prompt-item">${p}</div>`).join('');
+  });
+  el.innerHTML = html;
+}
+
+/* ---------- speaking ---------- */
+let cueIndex = 0;
+function renderSpeaking(){
+  const el = document.getElementById('speaking-list');
+  if(!state.speaking){ el.innerHTML='<div class="empty">找不到 speaking-bank.json</div>'; return; }
+  let html = '<div class="section-title">Part 1 Topics</div>';
+  html += `<div class="chip-row">${(state.speaking.part1_topics||[]).map(t=>`<span>${t}</span>`).join('')}</div>`;
+
+  html += '<div class="section-title">Part 2 — Cue Cards</div>';
+  html += `<button class="flipbtn" onclick="nextCue()">🎴 Draw a random cue card</button>`;
+  html += `<div class="cue-card" id="cueCard">${state.speaking.part2_cue_cards[0]}</div>`;
+
+  html += '<div class="section-title">Part 3 — Discussion Sets</div>';
+  html += (state.speaking.part3_discussion_sets||[]).map(s=>
+    `<div class="part3set"><h4>${s.theme}</h4><ul>${s.questions.map(q=>`<li>${q}</li>`).join('')}</ul></div>`).join('');
+
+  el.innerHTML = html;
+}
+function nextCue(){
+  const cards = state.speaking.part2_cue_cards;
+  cueIndex = Math.floor(Math.random()*cards.length);
+  document.getElementById('cueCard').textContent = cards[cueIndex];
+}
+
+init();
+</script>
+</body>
+</html>
