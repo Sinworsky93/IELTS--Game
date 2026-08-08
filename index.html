@@ -149,12 +149,17 @@ function renderReadingList(){
   }).join('');
 }
 
+let readingTimerId = null;
+let readingSecondsLeft = 0;
+
 function openPassage(i){
+  stopReadingTimer();
   state.currentPassage = state.reading.passages[i];
   document.getElementById('reading-list').style.display='none';
   const test = document.getElementById('reading-test');
   test.style.display='block';
   const p = state.currentPassage;
+  readingSecondsLeft = 15*60;
 
   const paragraphsHTML = Object.entries(p.paragraphs).map(([label,text])=>
     `<p><span class="para-label">${label}</span>${text}</p>`).join('');
@@ -202,21 +207,41 @@ function openPassage(i){
   }).join('');
 
   test.innerHTML = `
-    <button class="backbtn" onclick="closePassage()">&larr; Back to Reading list</button>
+    <button class="backbtn" onclick="stopReadingTimer();closePassage()">&larr; Back to Reading list</button>
     <div class="split">
       <div class="passage-box">
-        <h2>${p.title}</h2>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;">
+          <h2 style="margin-top:0;">${p.title}</h2>
+          <span id="readingTimerDisplay" style="font-weight:800;font-size:18px;color:var(--accent);white-space:nowrap;">${fmtTime(readingSecondsLeft)}</span>
+        </div>
         ${paragraphsHTML}
       </div>
       <div class="qbox">
         <form id="qform">${qgroupsHTML}</form>
         <div class="submitbar">
           <span class="score" id="scoreDisplay"></span>
-          <button type="button" onclick="gradePassage()">Check Answers</button>
+          <button type="button" onclick="gradePassage(false)">Check Answers</button>
         </div>
       </div>
     </div>
   `;
+  startReadingTimer();
+}
+
+function startReadingTimer(){
+  readingTimerId = setInterval(()=>{
+    readingSecondsLeft--;
+    const d2 = document.getElementById('readingTimerDisplay');
+    if(d2) d2.textContent = fmtTime(Math.max(0,readingSecondsLeft));
+    if(readingSecondsLeft <= 60 && d2) d2.style.color = 'var(--bad)';
+    if(readingSecondsLeft <= 0){
+      gradePassage(true);
+    }
+  }, 1000);
+}
+
+function stopReadingTimer(){
+  if(readingTimerId){ clearInterval(readingTimerId); readingTimerId = null; }
 }
 
 function closePassage(){
@@ -224,7 +249,8 @@ function closePassage(){
   document.getElementById('reading-list').style.display='block';
 }
 
-function gradePassage(){
+function gradePassage(autoSubmitted){
+  stopReadingTimer();
   const form = document.getElementById('qform');
   let correct=0, total=0;
   form.querySelectorAll('select[data-answer]').forEach(sel=>{
@@ -249,7 +275,8 @@ function gradePassage(){
     if(norm(inp.value)===norm(inp.dataset.answer)){ correct++; res.textContent='✓'; res.className='result correct'; }
     else { res.textContent='✗ ('+inp.dataset.answer+')'; res.className='result wrong'; }
   });
-  document.getElementById('scoreDisplay').textContent = `Score: ${correct} / ${total}`;
+  const scoreEl = document.getElementById('scoreDisplay');
+  scoreEl.textContent = (autoSubmitted ? "⏰ Time's up — " : '') + `Score: ${correct} / ${total}`;
 }
 
 /* ---------- chart rendering helpers ---------- */
