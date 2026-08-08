@@ -359,9 +359,9 @@ function renderChart(item){
 function renderWriting(){
   const el = document.getElementById('writing-list');
   if(!state.writing){ el.innerHTML='<div class="empty">找不到 writing-bank.json</div>'; return; }
-  let html = '<div class="section-title">Task 1 — Academic</div>';
-  html += (state.writing.task1_academic||[]).map(t=>
-    `<div class="prompt-item"><span class="tag">${t.chart_type}</span>${t.prompt}${renderChart(t)}</div>`).join('');
+  let html = '<div class="section-title">Task 1 — Academic (click a prompt to see the chart and write)</div>';
+  html += (state.writing.task1_academic||[]).map((t,i)=>
+    `<div class="prompt-item" style="cursor:pointer;" onclick="openTask1(${i})"><span class="tag">${t.chart_type}</span>${t.prompt}</div>`).join('');
 
   html += '<div class="section-title">Task 2 — Essay (click a prompt to write)</div>';
   const cats = state.writing.task2_essay || {};
@@ -378,13 +378,49 @@ function renderWriting(){
 
 let essayTimerId = null;
 let essaySecondsLeft = 0;
+let taskCtx = null; // { kind:'task1'|'task2', cat, i, minWords, durationMin }
+
+function openTask1(i){
+  stopEssayTimer();
+  const item = state.writing.task1_academic[i];
+  const minWords = 150, durationMin = 20;
+  taskCtx = { kind:'task1', i, minWords, durationMin };
+  essaySecondsLeft = durationMin*60;
+  const el = document.getElementById('writing-list');
+  el.innerHTML = `
+    <button class="backbtn" onclick="stopEssayTimer();renderWriting()">&larr; Back to Writing list</button>
+    <div class="split">
+      <div class="passage-box">
+        <h3 style="margin-top:0;"><span class="tag">${item.chart_type}</span></h3>
+        <p>${item.prompt}</p>
+        ${renderChart(item)}
+      </div>
+      <div class="qbox">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;">
+          <h4 style="margin-top:0;">Your report</h4>
+          <span id="timerDisplay" style="font-weight:800;font-size:18px;color:var(--accent);white-space:nowrap;">${fmtTime(essaySecondsLeft)}</span>
+        </div>
+        <p style="color:var(--sub);font-size:13px;">Write at least ${minWords} words. Spend about ${durationMin} minutes — the timer will auto-submit when it reaches 0.</p>
+        <textarea id="essayBox" rows="16"
+          autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false"
+          style="width:100%;border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14px;line-height:1.6;font-family:inherit;"
+          placeholder="Describe the chart here…" oninput="updateWordCount(${minWords})"></textarea>
+        <div class="submitbar">
+          <span class="score" id="wordCount">0 / ${minWords} words</span>
+          <button type="button" onclick="finishEssay(false)">Finish &amp; Review</button>
+        </div>
+      </div>
+    </div>
+  `;
+  startEssayTimer();
+}
 
 function openTask2(cat, i){
   stopEssayTimer();
   const prompt = state.writing.task2_essay[cat][i];
   const el = document.getElementById('writing-list');
-  const minWords = 250;
-  const durationMin = 40;
+  const minWords = 250, durationMin = 40;
+  taskCtx = { kind:'task2', cat, i, minWords, durationMin };
   essaySecondsLeft = durationMin*60;
   el.innerHTML = `
     <button class="backbtn" onclick="stopEssayTimer();renderWriting()">&larr; Back to Writing list</button>
@@ -400,11 +436,11 @@ function openTask2(cat, i){
         placeholder="Start writing your essay here…" oninput="updateWordCount(${minWords})"></textarea>
       <div class="submitbar">
         <span class="score" id="wordCount">0 / ${minWords} words</span>
-        <button type="button" onclick="finishEssay('${cat}',${i},${minWords},false)">Finish &amp; Review</button>
+        <button type="button" onclick="finishEssay(false)">Finish &amp; Review</button>
       </div>
     </div>
   `;
-  startEssayTimer(minWords, cat, i);
+  startEssayTimer();
 }
 
 function fmtTime(sec){
@@ -412,15 +448,14 @@ function fmtTime(sec){
   return `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
 }
 
-function startEssayTimer(minWords, cat, i){
-  const disp = document.getElementById('timerDisplay');
+function startEssayTimer(){
   essayTimerId = setInterval(()=>{
     essaySecondsLeft--;
     const d = document.getElementById('timerDisplay');
     if(d) d.textContent = fmtTime(Math.max(0,essaySecondsLeft));
     if(essaySecondsLeft <= 60 && d) d.style.color = 'var(--bad)';
     if(essaySecondsLeft <= 0){
-      finishEssay(cat, i, minWords, true);
+      finishEssay(true);
     }
   }, 1000);
 }
@@ -439,18 +474,27 @@ function updateWordCount(min){
   el.style.color = words>=min ? 'var(--good)' : 'var(--sub)';
 }
 
-function finishEssay(cat, i, minWords, autoSubmitted){
+function finishEssay(autoSubmitted){
   stopEssayTimer();
+  const ctx = taskCtx || { kind:'task2', minWords:250 };
+  const minWords = ctx.minWords;
   const box = document.getElementById('essayBox');
   const text = box ? box.value.trim() : '';
   const words = text.length ? text.split(/\s+/).length : 0;
   const paragraphs = text.split(/\n\s*\n/).filter(p=>p.trim().length>0).length;
   const linkers = ['however','therefore','moreover','furthermore','in addition','for example','for instance',
-    'in conclusion','on the other hand','as a result','consequently','in contrast','firstly','secondly','finally'];
+    'in conclusion','on the other hand','as a result','consequently','in contrast','firstly','secondly','finally',
+    'overall','compared to','compared with','whereas','while','in contrast to'];
   const lowerText = text.toLowerCase();
   const linkersUsed = linkers.filter(l=>lowerText.includes(l));
+  const hasNumbers = /\d/.test(text);
 
-  const checks = [
+  const checks = ctx.kind === 'task1' ? [
+    { label: `At least ${minWords} words`, pass: words>=minWords, detail: `${words} words written` },
+    { label: 'At least 2 paragraphs (overview + details)', pass: paragraphs>=2, detail: `${paragraphs} paragraph(s) detected` },
+    { label: 'Includes specific figures/data from the chart', pass: hasNumbers, detail: hasNumbers ? 'Numbers found in your report' : 'No numbers detected' },
+    { label: 'Uses comparison/reporting language', pass: linkersUsed.length>=1, detail: linkersUsed.length ? `Found: ${linkersUsed.join(', ')}` : 'None detected' }
+  ] : [
     { label: `At least ${minWords} words`, pass: words>=minWords, detail: `${words} words written` },
     { label: 'At least 4 paragraphs (intro / body / body / conclusion)', pass: paragraphs>=4, detail: `${paragraphs} paragraph(s) detected` },
     { label: 'Uses linking words to connect ideas', pass: linkersUsed.length>=2, detail: linkersUsed.length ? `Found: ${linkersUsed.join(', ')}` : 'None detected' }
@@ -485,7 +529,7 @@ function renderSpeaking(){
 
   html += '<div class="section-title">Part 2 — Cue Cards</div>';
   html += `<button class="flipbtn" onclick="nextCue()">🎴 Draw a random cue card</button>`;
-  html += `<div class="cue-card" id="cueCard">${state.speaking.part2_cue_cards[0]}</div>`;
+  html += `<div class="cue-card" id="cueCard">${cueCardHTML(state.speaking.part2_cue_cards[0])}</div>`;
 
   html += '<div class="section-title">Part 3 — Discussion Sets</div>';
   html += (state.speaking.part3_discussion_sets||[]).map(s=>
@@ -498,10 +542,15 @@ function showPart1(i){
   document.getElementById('p1questions').innerHTML =
     `<div class="part3set"><h4>${t.topic}</h4><ul>${t.questions.map(q=>`<li>${q}</li>`).join('')}</ul></div>`;
 }
+function cueCardHTML(card){
+  return `<div style="font-weight:700;margin-bottom:8px;">${card.topic}</div>
+    <div style="font-size:12.5px;color:var(--sub);margin-bottom:4px;">You should say:</div>
+    <ul style="margin:0;padding-left:18px;">${card.points.map(p=>`<li>${p}</li>`).join('')}</ul>`;
+}
 function nextCue(){
   const cards = state.speaking.part2_cue_cards;
   cueIndex = Math.floor(Math.random()*cards.length);
-  document.getElementById('cueCard').textContent = cards[cueIndex];
+  document.getElementById('cueCard').innerHTML = cueCardHTML(cards[cueIndex]);
 }
 
 init();
