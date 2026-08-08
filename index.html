@@ -110,9 +110,9 @@ async function loadJSON(paths){
 }
 
 async function init(){
-  state.reading = await loadJSON(['content/reading-bank.json','content/readingbank.json']);
-  state.writing = await loadJSON(['content/writing-bank.json','content/writingbank.json']);
-  state.speaking = await loadJSON(['content/speaking-bank.json','content/speakingbank.json']);
+  state.reading = await loadJSON(['content/reading-bank.json','content/readingbank.json','reading-bank.json','readingbank.json']);
+  state.writing = await loadJSON(['content/writing-bank.json','content/writingbank.json','writing-bank.json','writingbank.json']);
+  state.speaking = await loadJSON(['content/speaking-bank.json','content/speakingbank.json','speaking-bank.json','speakingbank.json']);
   renderReadingList();
   renderWriting();
   renderSpeaking();
