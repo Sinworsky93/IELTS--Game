@@ -1603,5 +1603,86 @@
         "model_answer": "Some believe team sports such as football offer greater benefits than individual sports like tennis or swimming, while others favour the reverse. This essay will discuss both perspectives before presenting my own opinion.\n\nThose who favour team sports argue that they teach valuable skills such as cooperation, communication and leadership, since success depends on coordinating effectively with teammates towards a shared goal. Team sports also foster strong social bonds and a sense of belonging, as players regularly train and compete together, building friendships and camaraderie that individual sports may not provide to the same degree.\n\nConversely, supporters of individual sports argue that these activities build self-discipline, personal responsibility and mental resilience, since athletes must rely entirely on their own effort and cannot attribute success or failure to teammates. Individual sports also offer greater scheduling flexibility, since athletes are not dependent on coordinating with an entire team, making them more accessible for people with busy or unpredictable schedules.\n\nIn my opinion, both types of sport offer valuable, complementary benefits, and the ideal choice ultimately depends on an individual's personality and goals. Those who thrive on social interaction and teamwork may benefit more from team sports, while those seeking personal challenge and flexible training may prefer individual sports. Rather than one being objectively superior, I believe a well-rounded approach to physical activity ideally incorporates elements of both.\n\n(220 words)"
       }
     ]
+  },
+  "task1_useful_words": {
+    "line": [
+      "rose steadily",
+      "fluctuated",
+      "peaked at",
+      "a gradual decline",
+      "remained stable"
+    ],
+    "bar": [
+      "the largest proportion",
+      "significantly higher than",
+      "a sharp contrast",
+      "roughly equal",
+      "the smallest share"
+    ],
+    "pie": [
+      "accounted for",
+      "a quarter of",
+      "the majority",
+      "a negligible proportion",
+      "comprised"
+    ],
+    "table": [
+      "in comparison",
+      "the highest figure",
+      "considerably lower",
+      "on average",
+      "varied widely"
+    ],
+    "process": [
+      "is then transferred to",
+      "the first stage involves",
+      "subsequently",
+      "once completed",
+      "the final step"
+    ],
+    "map": [
+      "was converted into",
+      "expanded significantly",
+      "replaced by",
+      "situated to the north of",
+      "underwent major changes"
+    ]
+  },
+  "task2_useful_words": {
+    "education": [
+      "equip students with",
+      "rote learning",
+      "critical thinking skills",
+      "curriculum",
+      "lifelong learning"
+    ],
+    "environment": [
+      "carbon footprint",
+      "renewable energy",
+      "unsustainable",
+      "mitigate the effects of",
+      "biodiversity"
+    ],
+    "society_government": [
+      "public policy",
+      "civic responsibility",
+      "socioeconomic inequality",
+      "welfare system",
+      "regulatory measures"
+    ],
+    "work_economy": [
+      "job security",
+      "economic growth",
+      "work-life balance",
+      "labour market",
+      "automation"
+    ],
+    "media_technology": [
+      "digital literacy",
+      "misinformation",
+      "screen time",
+      "data privacy",
+      "technological advancement"
+    ]
   }
 }
