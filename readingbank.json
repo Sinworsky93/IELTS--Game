@@ -1547,6 +1547,142 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reading-short-01",
+      "title": "The Rise of Reusable Packaging",
+      "source": "Original/teaching material (short practice)",
+      "short": true,
+      "paragraphs": {
+        "A": "In many cities, supermarkets are experimenting with reusable packaging schemes as an alternative to single-use plastic. Instead of buying a product in a disposable container, shoppers pay a small deposit for a sturdy, reusable box or jar. Once the product is finished, the container is returned to the store, cleaned, and refilled for the next customer. Early trials in Germany and South Korea suggest that such schemes can cut packaging waste by more than half within a single year.",
+        "B": "Despite the promising results, the schemes face practical obstacles. Cleaning and transporting containers requires additional infrastructure, and some customers find the deposit system inconvenient compared to simply throwing packaging away. Retailers argue that as more stores join similar schemes, the cost of running them will fall, making reusable packaging a realistic option for mainstream shopping rather than a niche experiment."
+      },
+      "questions": [
+        {
+          "group": "1-4",
+          "type": "true_false_not_given",
+          "instructions": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
+          "items": [
+            {
+              "n": 1,
+              "statement": "Customers pay a deposit that is returned when they bring the container back.",
+              "answer": "NOT GIVEN"
+            },
+            {
+              "n": 2,
+              "statement": "Trials in Germany and South Korea reduced packaging waste by over 50% in a year.",
+              "answer": "TRUE"
+            },
+            {
+              "n": 3,
+              "statement": "All customers prefer the deposit system to disposable packaging.",
+              "answer": "FALSE"
+            },
+            {
+              "n": 4,
+              "statement": "Retailers expect costs to decrease as more stores adopt the scheme.",
+              "answer": "TRUE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-short-02",
+      "title": "Why Cities Are Planting More Trees",
+      "source": "Original/teaching material (short practice)",
+      "short": true,
+      "paragraphs": {
+        "A": "Urban planners around the world are increasingly turning to trees as a low-cost tool for tackling rising city temperatures. A single mature tree can lower the surrounding air temperature by several degrees through shade and the natural cooling effect of releasing water vapour. Studies of cities such as Singapore and Melbourne show that streets lined with trees can be noticeably cooler than nearby streets without greenery, particularly during heatwaves.",
+        "B": "Beyond cooling, urban trees also improve air quality by filtering pollutants and absorbing carbon dioxide. However, planting trees in dense cities is not always straightforward: underground pipes, narrow pavements, and pollution can all limit where trees are able to grow. As a result, some cities are now investing in specially bred, pollution-resistant tree species designed to survive in difficult urban conditions."
+      },
+      "questions": [
+        {
+          "group": "1-4",
+          "type": "multiple_choice",
+          "instructions": "Choose the correct letter, A, B, C or D.",
+          "items": [
+            {
+              "n": 1,
+              "question": "According to Paragraph A, how do trees cool city streets?",
+              "options": [
+                "A) By blocking traffic noise",
+                "B) Through shade and releasing water vapour",
+                "C) By absorbing sunlight into their roots",
+                "D) Through artificial irrigation systems"
+              ],
+              "answer": "B"
+            },
+            {
+              "n": 2,
+              "question": "What comparison is made between Singapore and Melbourne?",
+              "options": [
+                "A) Both cities have banned car traffic",
+                "B) Both cities have planted the same tree species",
+                "C) Tree-lined streets in both cities are cooler than streets without trees",
+                "D) Both cities have identical average temperatures"
+              ],
+              "answer": "C"
+            },
+            {
+              "n": 3,
+              "question": "According to Paragraph B, what is one benefit of urban trees besides cooling?",
+              "options": [
+                "A) They increase property taxes",
+                "B) They filter pollutants and absorb carbon dioxide",
+                "C) They eliminate the need for public transport",
+                "D) They reduce the price of building materials"
+              ],
+              "answer": "B"
+            },
+            {
+              "n": 4,
+              "question": "What challenge do cities face when planting trees, according to Paragraph B?",
+              "options": [
+                "A) A lack of interest from residents",
+                "B) Limited space due to pipes and narrow pavements",
+                "C) A shortage of tree seeds worldwide",
+                "D) Legal restrictions on all forms of greenery"
+              ],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-short-03",
+      "title": "The Return of Handwritten Notes",
+      "source": "Original/teaching material (short practice)",
+      "short": true,
+      "paragraphs": {
+        "A": "Even as digital note-taking apps become more powerful, a growing number of students and professionals are returning to pen and paper. Researchers suggest that the physical act of writing by hand, rather than typing, forces the brain to process information more slowly and selectively, which can improve memory and understanding. Several universities have reported that students who take handwritten notes in lectures tend to perform better on later tests than those who type their notes.",
+        "B": "Handwriting is not without drawbacks: it is slower, harder to search, and more difficult to share than digital text. For this reason, many people now combine both methods, typing longer documents while reserving handwriting for brainstorming, summarising, or reviewing key ideas before an exam."
+      },
+      "questions": [
+        {
+          "group": "1-3",
+          "type": "sentence_completion",
+          "instructions": "Complete the sentences below. Use NO MORE THAN THREE WORDS from the passage for each answer.",
+          "items": [
+            {
+              "n": 1,
+              "prompt": "Writing by hand forces the brain to process information more ___ and selectively.",
+              "answer": "slowly"
+            },
+            {
+              "n": 2,
+              "prompt": "Compared with digital text, handwriting is slower, harder to search, and more difficult to ___.",
+              "answer": "share"
+            },
+            {
+              "n": 3,
+              "prompt": "Many people now reserve handwriting for brainstorming, summarising, or reviewing key ideas before an ___.",
+              "answer": "exam"
+            }
+          ]
+        }
+      ]
     }
   ],
   "_excluded": [
