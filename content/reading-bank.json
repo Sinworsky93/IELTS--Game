@@ -2143,6 +2143,208 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reading-025",
+      "title": "The Written Vessel: How Literature Catalyzes Societal Transitions",
+      "source": "Original teaching material (literary history)",
+      "category": "history_culture",
+      "paragraphs": {
+        "A": "Historically, the written word has functioned as the ultimate catalyst for global transformation, acting as both a repository of human thought and a driver of cognitive evolution. John Milton famously conceptualised a book as a chemical 'vial' into which the precious lifeblood of a human soul is poured and preserved. Consider, for example, the Bible: for centuries, this assembly of sacred writings has so fundamentally permeated the structures of global civilization that imagining a world without it is virtually impossible, demonstrating that physical books are indispensable vessels for transporting revolutionary concepts across generations.",
+        "B": "As society transitioned into the nineteenth century, Mary Shelley's gothic masterpiece, Frankenstein, published in 1818, captured a monumental paradigm shift in the human understanding of natural philosophy and ethics. Not only does the novel redefine the boundaries of human ambition, but it also reflects a profound anxiety regarding the transition from God as the ultimate creator to humans as the technological creators of life. According to literary critics, Frankenstein laid the foundational stones of modern science fiction, a genre that has subsequently changed how humanity conceptualises its own technological future.",
+        "C": "While Shelley examined the scientific boundaries of creation, later writers turned their analytical gaze toward the material conditions required for intellectual and creative output. Virginia Woolf, whose seminal essay A Room of One's Own remains a cornerstone of feminist literature, anchored her analysis in concrete, physical circumstances: financial autonomy and private physical space. Only when a woman possesses a room of her own and independent financial resources, she argues, can she hope to engage in the luxury of intellectual creation. It is not unfeasible to suggest that the material worries of daily survival act as insurmountable obstacles to the production of literature.",
+        "D": "In a similar vein, the socio-economic dimensions of women's lives were central to the works of Jane Austen. Seldom in nineteenth-century literature were women depicted not merely as passive trophies to be bartered by men, but as rational, autonomous agents whose personal decisions carried profound socio-economic consequences. Austen positioned marriage not simply as a vehicle for romantic fulfillment, but as an essential social and economic institution governing survival.",
+        "E": "In the modern era, the democratization of readership has been characterized by cross-generational literary phenomena, most notably exemplified by the works of J.K. Rowling. Although occasionally dismissed by traditional critics as a simplistic amalgamation of established tropes, the Harry Potter series achieved unprecedented global success, attributable not only to its intricate world-building but also to its unique structural progression, allowing its protagonists to age organically alongside their readers. Ultimately, these works remind us that books should be sources of profound enjoyment."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "matching_sentence_endings",
+          "instructions": "Complete each sentence with the correct ending, A-F, below.",
+          "endings": [
+            "A. because it demonstrated humanity's growing anxiety about scientific overreach.",
+            "B. because financial security and physical space are prerequisites for creative work.",
+            "C. because it treated marriage as an economic necessity rather than pure romance.",
+            "D. because its influence on civilization is almost impossible to imagine away.",
+            "E. because its characters mature alongside the readers who grow up with them."
+          ],
+          "items": [
+            {
+              "n": 1,
+              "start": "Milton's metaphor of the Bible as a preserved 'vial' is significant",
+              "answer": "D"
+            },
+            {
+              "n": 2,
+              "start": "Frankenstein is considered a landmark novel",
+              "answer": "A"
+            },
+            {
+              "n": 3,
+              "start": "Virginia Woolf argued that women need a room and money",
+              "answer": "B"
+            },
+            {
+              "n": 4,
+              "start": "Jane Austen's novels presented an unusual view of marriage",
+              "answer": "C"
+            },
+            {
+              "n": 5,
+              "start": "The Harry Potter series achieved lasting popularity partly",
+              "answer": "E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-026",
+      "title": "The Comparative Anatomy of School Lunch Programs: A Global Health and Educational Analysis",
+      "source": "Original teaching material (comparative global school nutrition policy)",
+      "category": "society_global",
+      "paragraphs": {
+        "A": "Within contemporary educational systems, the midday meal has transcended its traditional role as mere physical sustenance, evolving instead into a cornerstone of institutionalized public health policy. Finland, which was the pioneering nation in the world to mandate free school lunches for every student, enforces rigorous nutritional standards by law: vegetables must occupy at least half of the student's plate. Similarly, Brazil has elevated nutritional security to a constitutional right, requiring that at least thirty percent of ingredients be sourced directly from local farmers, while in Rome, municipal regulations dictate that a minimum of seventy percent of ingredients must be organic.",
+        "B": "Beyond legislative mandates, the structural format of school lunches reflects deep-seated cultural attitudes toward gastronomy. French educational institutions cultivate appreciation for culinary arts by offering students up to a four-course meal, concluding with a sweet confection like marzipan. Not only do French culinary standards advocate for such gastronomic complexity, but Ukrainian schools also adopt a multi-course format, serving a three-course meal that finishes with a shortbread biscuit. Meanwhile, Italian students consume a structured two-course lunch of pasta followed by a protein and vegetable pairing.",
+        "C": "In East Asia, the implementation of portion-controlled designs plays an indispensable role in maintaining youthful health. In South Korea, students eat off sectioned steel trays designed to facilitate perfect portion sizes. To finance these initiatives, diverse economic models have emerged; in China, families pay a nominal monthly fee for a balanced box lunch, which contrasts sharply with the home-prepared tiffin box tradition in India, where the culinary contents are heavily dependent on regional agricultural variations.",
+        "D": "Beyond nutritional delivery, certain school lunch models function directly as educational tools. In Japan, children are actively integrated into the culinary process, taking turns preparing, serving, and cleaning up after their peers to cultivate lifelong healthy habits. This pedagogical approach contrasts with localized sourcing initiatives like Hawaii's Farm to School Program, which uses fresh, locally sourced ingredients prepared entirely from scratch.",
+        "E": "Finally, school meal dynamics are heavily constrained by school timetables and the absence of formal dining facilities. In Israel, where the school day finishes before lunchtime, only a mid-morning snack is necessary. Similarly, Norwegian schools do not operate in-house cafeterias, so students bring a home-prepared open-face sandwich instead. This reliance on convenience foods contrasts with Anglo-American hot lunch programs, which frequently incorporate processed elements such as a grilled cheese sandwich and tomato soup."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "matching_features",
+          "instructions": "Match each description with the correct country, A-E.",
+          "features": [
+            "A. Finland",
+            "B. Japan",
+            "C. Norway",
+            "D. Brazil",
+            "E. South Korea"
+          ],
+          "items": [
+            {
+              "n": 1,
+              "statement": "Students help prepare and clean up meals as part of their education.",
+              "answer": "B"
+            },
+            {
+              "n": 2,
+              "statement": "A law requires a minimum proportion of ingredients to come from local farmers.",
+              "answer": "D"
+            },
+            {
+              "n": 3,
+              "statement": "Schools do not have their own cafeterias, so lunch is brought from home.",
+              "answer": "C"
+            },
+            {
+              "n": 4,
+              "statement": "It was the first country to legally guarantee free lunches for all students.",
+              "answer": "A"
+            },
+            {
+              "n": 5,
+              "statement": "Meals are served on trays with sections designed for exact portion sizes.",
+              "answer": "E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-027",
+      "title": "The Narrative Brain: How the Left-Hemisphere Interpreter Constructs Consciousness",
+      "source": "Original teaching material (neurocognitive science, split-brain research)",
+      "category": "science_tech",
+      "paragraphs": {
+        "A": "For centuries, humanity has conceptualized consciousness as a seamless, real-time river of sensory inputs. However, contemporary neuroscientific endeavors have increasingly undermined this linear model. Research indicates that subjective experience is not a direct reflection of objective reality, but rather a highly curated, retrospective narrative constructed by the unconscious brain. Located in the left cerebral hemisphere, a specialized cognitive mechanism—termed the \"interpreter\"—continually synthesizes external behaviors and internal emotional states into a coherent, unified storyline.",
+        "B": "The empirical foundations of this interpreter hypothesis were laid during the mid-20th century, primarily through pioneering studies on split-brain patients—individuals whose corpus callosum had been surgically severed to treat intractable epilepsy. Dr. Michael Gazzaniga demonstrated that speech and language production are localized almost exclusively in the left hemisphere. In contrast, the right hemisphere, which is largely incapable of speech, operates in silence. It is not without significance that while the non-speaking right hemisphere could execute complex motor commands, the speaking left hemisphere remained entirely unaware of the underlying visual prompts directing those actions.",
+        "C": "To illustrate this cognitive divergence, Dr. Gazzaniga reconstructed a series of lateralized tests. In one instance, a patient named Joe was shown the word \"Bell\" in his non-speaking right brain, while \"Music\" was shown to his speaking left brain. Joe's left hand pointed to a picture of a bell. When asked why, his left hemisphere—which had not seen the word \"Bell\"—immediately concocted a plausible explanation, attributing the action to a memory of hearing church bells earlier that day, even though the story was detached from the objective neurological cause.",
+        "D": "This retrospective narrativization suggests that human consciousness is inherently non-linear, operating through a mechanism known as semantic chunking. Rather than analyzing environmental inputs word-by-word, the unconscious mind samples a broad spectrum of stimuli before delivering a unified perceptual outcome. For instance, the word \"mouse\" possesses multiple meanings, but the brain immediately resolves the ambiguity once it is placed in context, such as \"The mouse pad was beside the computer.\"",
+        "E": "Ultimately, the evolutionary designation of humans as \"storytelling animals\" stems from this persistent internal drive to maintain a coherent narrative. Neuroscientists hypothesize that engaging with fictional worlds serves as a low-risk cognitive simulator, allowing individuals to mentally rehearse unexpected life events. Through this mental rehearsal, the brain enriches our cognitive repertoire, ultimately rendering our subjective experience of reality far richer."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "true_false_not_given",
+          "instructions": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
+          "items": [
+            {
+              "n": 1,
+              "statement": "Split-brain surgery was originally performed as a treatment for severe epilepsy.",
+              "answer": "TRUE"
+            },
+            {
+              "n": 2,
+              "statement": "In Gazzaniga's research, the right hemisphere was able to produce speech.",
+              "answer": "FALSE"
+            },
+            {
+              "n": 3,
+              "statement": "When Joe was asked why he pointed to the bell, his left brain admitted it did not know the reason.",
+              "answer": "FALSE"
+            },
+            {
+              "n": 4,
+              "statement": "The brain processes ambiguous words like \"mouse\" one syllable at a time before understanding them.",
+              "answer": "FALSE"
+            },
+            {
+              "n": 5,
+              "statement": "Most people who enjoy fiction do so mainly to improve their vocabulary.",
+              "answer": "NOT GIVEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-028",
+      "title": "The Mechanics and Mitigation of Alpine Avalanches",
+      "source": "Adapted teaching material (avalanche science and risk mitigation)",
+      "category": "science_tech",
+      "paragraphs": {
+        "A": "In February 2012, professional skier Elyse Saugstad was carving through the slopes of the Cascade Mountains when a sudden crack formed in the snowpack above her. Before she was fully engulfed by a massive, crushing 5,000-ton wall of snow, Elyse heard the warning shout \"AVALANCHE!\" just in time to react. Scientifically defined, avalanches represent the rapid descension of snow, ice, rock, or a combination of these elements down a mountain slope. In the United States alone, avalanches kill an average of 27 people annually, establishing them as a significant and persistent hazard in alpine environments.",
+        "B": "These alpine nightmares do not just awaken out of nowhere; rather, they require three specific conditions to materialize. First, the mountain terrain must possess the right slope angle, typically between 30 and 45 degrees—shallow enough to allow snow to build up, yet steep enough to provide sufficient potential energy for movement. Second, avalanches typically require a layer of sturdy snow deposited over a weak or unstable layer, a phenomenon colloquially referred to as \"something over nothing\", demonstrating that heavy snowfall is not without its hazardous consequences.",
+        "C": "Directly below this heavy, fresh slab of snow sat a thin, fragile layer of surface hoar—delicate, feathery ice crystals that form when water vapor rapidly freezes on the surface of existing snow. Underneath a heavy slab, this fragile crystal layer behaves as a structural void. Finally, avalanches require a trigger, which is defined as any external force sufficient to disturb this delicate balance, whether the weight of a skier or the natural settling of the snowpack itself.",
+        "D": "Once triggered, an avalanche can accelerate to speeds exceeding 130 kilometers per hour within seconds, giving victims almost no time to react. Survival depends heavily on the ability to stay near the surface of the moving snow, since burial beneath even a shallow layer can be fatal due to the snow's rapid compaction and the difficulty of breathing once it hardens. Modern avalanche airbag backpacks, which inflate rapidly upon deployment, exploit a physical principle known as inverse segregation to keep the wearer closer to the surface.",
+        "E": "To mitigate these risks, avalanche forecasters combine terrain analysis, snowpack observation, and weather modeling to issue daily hazard ratings for popular backcountry areas. Ski resorts frequently use controlled explosive charges to deliberately trigger smaller avalanches before the snowpack becomes unstable enough to pose a serious threat to visitors. Nevertheless, experts emphasize that education and personal decision-making in the backcountry remain the most effective line of defense, since no forecasting system can eliminate risk entirely."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "sentence_completion",
+          "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "items": [
+            {
+              "n": 1,
+              "prompt": "An avalanche needs a slope angle that is shallow enough to let snow build up but steep enough to provide ___.",
+              "answer": "potential energy"
+            },
+            {
+              "n": 2,
+              "prompt": "The weak layer beneath a heavy snow slab is often made of fragile ice crystals called ___.",
+              "answer": "surface hoar"
+            },
+            {
+              "n": 3,
+              "prompt": "An avalanche requires a ___, which can be as simple as the weight of a skier.",
+              "answer": "trigger"
+            },
+            {
+              "n": 4,
+              "prompt": "Avalanche airbags rely on a principle called ___ to keep a person near the surface.",
+              "answer": "inverse segregation"
+            },
+            {
+              "n": 5,
+              "prompt": "Ski resorts sometimes use controlled explosive charges to trigger smaller avalanches before the snowpack becomes ___.",
+              "answer": "unstable"
+            }
+          ]
+        }
+      ]
     }
   ],
   "_excluded": [
