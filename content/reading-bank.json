@@ -1748,6 +1748,401 @@
         }
       ],
       "category": "education_language"
+    },
+    {
+      "id": "reading-017",
+      "title": "The Solitary Path: A Socio-Psychological Analysis of Non-Affiliative Behavior and Self-Sovereignty",
+      "source": "Original teaching material (psychology of solitude)",
+      "category": "psychology_society",
+      "paragraphs": {
+        "A": "In contemporary society, a hyper-connected paradigm prevails, heavily characterized by the metricization of social worth through digital platforms. On these networks, popularity is meticulously quantified, and the accumulation of virtual validation has become a primary objective for many. Within this pervasive atmosphere of collective social engagement, individuals who exhibit non-affiliative tendencies—specifically those who do not possess or seek a conventional circle of companions—are frequently subjected to societal skepticism. Traditional sociological frameworks have historically pathologized this state of voluntary solitude, assuming that human well-being is inherently contingent upon continuous peer interaction. However, recent empirical inquiries into psychological self-sovereignty suggest an alternative interpretation. Seldom do these modern analyses view the choice to walk alone as a manifestation of psychological deficit; rather, they identify it as a hallmark of heightened self-awareness and emotional intelligence.",
+        "B": "The first key characteristic of these self-sovereign individuals is their reliance on internal validation, which serves as a psychological anchor in an era dominated by external appraisal. Unlike the majority who actively pursue a sense of social belonging, often at the expense of their personal integrity, these individuals reject the necessity of peer approval. This internal orientation is closely linked with a capacity for profound contemplation. For these individuals, solitude is not an empty state to be feared, but a cognitive catalyst that actively facilitates intellectual and emotional growth. They are often characterized by habits such as reflective journaling, solitary walks, and a pronounced inclination to listen rather than to speak.",
+        "C": "Furthermore, these individuals exhibit exceptionally robust interpersonal boundaries, which they maintain even at the cost of social disapproval. They would far rather disappoint others than betray their own core principles, viewing the preservation of personal peace as a primary necessity. They consciously distance themselves from interpersonal drama, persistent negativity, and toxic social circles, all of which contribute to psychological depletion. This protective stance is further enhanced by their hyper-intuitive capacities, allowing them to sense subtle shifts in social dynamics almost immediately upon entering a room.",
+        "D": "Additionally, a defining dimension of those who roll solo is their accelerated rate of psychological evolution. It is not uncommon for friendships to dissolve not because of toxic conflict, but because one individual is undergoing a profound internal transformation that their peer group cannot accommodate. Seldom do they cling to obsolete social connections out of a fear of being alone, recognizing that personal evolution often requires outgrowing environments that no longer align with their authentic selves. They are not difficult to love, as conventional narratives might suggest; rather, they are exceptionally difficult to manipulate.",
+        "E": "In conclusion, the phenomenon of the friendless individual, when viewed through the lens of psychological self-sovereignty, challenges the traditional dogma of social conformity. By examining these five distinct dimensions—internal validation, contemplative depth, rigid boundaries, hyper-intuition, and rapid personal evolution—we can discern a lifestyle that is not defined by lack, but by abundance. These individuals choose to walk alone not because they are incapable of connection, but because they refuse to settle for superficiality. Ultimately, their choice to walk alone is not an indictment of social connection, but a profound affirmation of personal autonomy."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "yes_no_not_given",
+          "instructions": "Do the following statements agree with the claims of the writer? Write YES if the statement agrees with the writer's claims, NO if it contradicts the claims, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+          "items": [
+            {
+              "n": 1,
+              "statement": "Modern psychological research tends to view a preference for solitude as a sign of poor mental health.",
+              "answer": "NO"
+            },
+            {
+              "n": 2,
+              "statement": "Self-sovereign individuals generally find it easy to gain approval from their peer groups.",
+              "answer": "NOT GIVEN"
+            },
+            {
+              "n": 3,
+              "statement": "People who value strong personal boundaries are usually indifferent to how others perceive them.",
+              "answer": "NOT GIVEN"
+            },
+            {
+              "n": 4,
+              "statement": "A friendship can end simply because one person has changed in ways the other cannot accept.",
+              "answer": "YES"
+            },
+            {
+              "n": 5,
+              "statement": "Self-sovereign individuals are best described as people who are hard to form relationships with.",
+              "answer": "NO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-018",
+      "title": "The Erasure of Voice: Female Disenfranchisement in Post-Conflict Afghanistan",
+      "source": "Adapted from real reporting on conditions for women under Taliban rule (not verbatim copied)",
+      "category": "society_global",
+      "paragraphs": {
+        "A": "Three years after the Taliban's sudden return to power in Afghanistan, a newly published decree has drastically curtailed the fundamental rights of women, mandating that they must cover their faces and bodies entirely whenever necessity compels them to leave their domestic spheres. Under this stringent law, the female voice is strictly prohibited from being heard in public spaces. For many Afghan women, this relentless series of dictats has transformed daily existence into a state resembling a psychological prison, where individuals describe themselves as \"dead bodies moving around\".",
+        "B": "To ensure compliance with these unprecedented decrees, the regime's morality police have been granted sweeping and arbitrary powers of enforcement. It is not uncommon for women to experience intense anxiety when performing routine tasks, such as boarding a bus or speaking at a normal volume, as any perceived infraction could lead to immediate detention. In the period immediately following the Taliban's takeover, groups of courageous women frequently took to the streets to demand their fundamental rights. However, the regime cracked down on these public marches with brutal efficiency. Consequently, physical public demonstrations have virtually ceased, leading to a transition where women now post video recordings of themselves singing in quiet defiance to criticize the regime's actions.",
+        "C": "Parallel to the restrictions on public movement is the devastating denial of education, which has locked teenage girls out of secondary and higher education for three consecutive years. Seldom has an educational blockade had such a catastrophic impact on youth mental health, with numerous young women expressing profound depression as a direct consequence of their enforced isolation. Despite this centralized embargo, regional contradictions have emerged, as evidenced by a Taliban-run midwife training course in a province near Kabul, where young women in their twenties are permitted to learn maternal nursing.",
+        "D": "Recognizing that official promises of educational reform have yielded no tangible results on the ground, some Afghan women have taken matters into their own hands through highly dangerous, clandestine initiatives. Behind closed doors, dedicated female educators operate secret schools for young girls, providing a desperate lifeline of knowledge under the constant threat of discovery. Operating such a school is not without immense personal peril, as teachers must wake up daily praying for safe passage and are frequently forced to change locations to evade detection.",
+        "E": "On the geopolitical stage, the enactment of these oppressive laws has severely complicated and destabilized relations between the Taliban regime and the global community. This diplomatic impasse stands in stark contrast to the events of late June, when the Taliban attended UN-led talks in Doha for the first time. That meeting, from which Afghan women's rights and civil society activists were conspicuously excluded, drew intense international criticism directed at the United Nations."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "matching_information",
+          "instructions": "Which paragraph contains the following information?",
+          "items": [
+            {
+              "n": 1,
+              "statement": "A description of how public street protests were replaced by a quieter form of resistance.",
+              "answer": "B"
+            },
+            {
+              "n": 2,
+              "statement": "An example that contradicts the general ban on education for young women.",
+              "answer": "C"
+            },
+            {
+              "n": 3,
+              "statement": "A description of the personal risks taken by teachers running unofficial classes.",
+              "answer": "D"
+            },
+            {
+              "n": 4,
+              "statement": "A reference to an international meeting that excluded the very people it concerned.",
+              "answer": "E"
+            },
+            {
+              "n": 5,
+              "statement": "A description of how a new law affects women's ability to be heard in public.",
+              "answer": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-019",
+      "title": "The Digital Acceleration of Linguistic Evolution: TikTok, Algorithms, and Global Homogenization",
+      "source": "Original teaching material (sociolinguistics of social media)",
+      "category": "education_language",
+      "paragraphs": {
+        "A": "For millennia, human language has undergone a process of perpetual transition, adapting to the shifting needs of its speakers. Historically, this evolution was a gradual phenomenon, bounded by geographical constraints and slow-moving social interactions. Seldom, however, have previous technological revolutions accelerated the velocity of linguistic change to such an unprecedented degree as has the contemporary advent of digital communication. Today, internet-derived phrases such as \"it's giving\", \"rizz\", and \"no cap\" are widely attributed to the cultural output of millennial and Generation Z demographics. It is not uncommon, however, for older generations to view this hyperfast evolution with a mixture of bewilderment and apprehension.",
+        "B": "To comprehend this linguistic shift, one must examine the socio-cultural dynamics that underpin youth slang. Slang, in its essence, serves as a powerful instrument for identity construction and in-group demarcation. Yet, the moment these specialized phrases are co-opted by individuals outside the subgroup, they immediately lose their status as exclusive markers. Consequently, teenagers swiftly discard these terms in favor of novel linguistic innovations. Intriguingly, many of these mainstream expressions did not emerge from a cultural vacuum; rather, they were incubated within specific peripheral subcultures, including the Black and Latino LGBT communities in the United States, which pioneered terms like \"slay\" and \"it's giving\".",
+        "C": "Beyond mere lexical additions, the digital landscape is actively reshaping phonetics and grammatical frameworks, which are conventionally considered the most stable components of language. Phonetically, the phenomenon of \"up-talk\"—characterized by a rising intonation at the termination of declarative sentences—has transcended its regional origins in the antipodes. Today, up-talk is systematically deployed by social media creators, who adopt this rising intonation to foster rapport and heighten engagement, thereby maximizing viewer retention favored by recommendation algorithms.",
+        "D": "Historically, linguistic contact was highly localized. Today, however, the consumption of mass and social media exposes individuals to a highly diverse array of global voices. Not only do modern social media platforms expose individuals to these diverse voices, but they also facilitate an unprecedented level of global homogenization. This homogenization has intensified the threat of \"linguicide\"—the covert or overt extinction of endangered languages. Experts estimate that by the end of the twenty-first century, up to half of the world's seven thousand active languages may disappear entirely.",
+        "E": "Despite the ominous projections surrounding global language loss, modern technology and grassroots movements also provide powerful pathways for linguistic revitalization. A celebrated exemplar of successful revitalization is the Māori language of New Zealand. Concurrently, Artificial Intelligence has emerged as a double-edged sword in this domain: it can rapidly document low-resource languages, yet it is highly susceptible to \"hallucinations\"—the fabrication of non-existent words or erroneous grammatical structures."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "matching_headings",
+          "instructions": "Choose the correct heading for each paragraph from the list of headings below.",
+          "headings": [
+            "i. The technological duality of language revitalization",
+            "ii. The unprecedented speed of digitally-driven language change",
+            "iii. How algorithms are reshaping pronunciation and grammar",
+            "iv. The origins and disposal cycle of youth slang",
+            "v. Global convergence and the risk of language extinction"
+          ],
+          "items": [
+            {
+              "n": 1,
+              "paragraph": "A",
+              "answer": "ii"
+            },
+            {
+              "n": 2,
+              "paragraph": "B",
+              "answer": "iv"
+            },
+            {
+              "n": 3,
+              "paragraph": "C",
+              "answer": "iii"
+            },
+            {
+              "n": 4,
+              "paragraph": "D",
+              "answer": "v"
+            },
+            {
+              "n": 5,
+              "paragraph": "E",
+              "answer": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-020",
+      "title": "The Twilight of the Written Word: The Collective Demise of Modern Reading",
+      "source": "Original teaching material (reading habits and cognition)",
+      "category": "education_language",
+      "paragraphs": {
+        "A": "In contemporary society, a silent cultural shift is unfolding, one that threatens to dismantle a foundational pillar of human intellect. Investigation into this phenomenon reveals a precipitous drop in reading engagement that cuts indiscriminately across all age categories, genders, educational attainments, and socioeconomic strata. According to empirical data compiled over the last two decades, the proportion of citizens who engage with a book or even a brief article on any given day has diminished by a staggering forty percent. So profound is this societal pivot that recreational gambling has now surpassed reading as a preferred leisure activity among the public.",
+        "B": "To attribute this decline solely to a lack of literacy would be to misunderstand the nature of modern communication, as contemporary individuals arguably process more written words than any previous generation. However, this hyper-stimulated consumption of superficial text has systematically eroded the human capacity to sustain focus on rich, complex, and extended literature. Seldom do we witness modern readers engaging in deep, undistracted cognitive processing. Students increasingly report perceiving full-text reading as an unnecessarily arduous methodology for extracting information, a resistance further exacerbated by AI tools that readily summarize complex ideas.",
+        "C": "While contemporary commentators lament this digital assault on literacy, historical precedents suggest that anxiety surrounding shifts in reading habits is not entirely unprecedented. Before the newspaper or the modern novel established their cultural dominance, they were frequently perceived as existential threats to disciplined intellectual pursuits. Nevertheless, the current crisis exhibits features that are qualitatively different from historical transitions: today, society faces a population that struggles not only to read but also to articulate complex thoughts coherently.",
+        "D": "The root of this systemic decline can be traced back to early childhood development and the evolving landscape of compulsory education. In the domestic sphere, the tradition of shared reading has dwindled to near extinction, with surveys indicating that a mere two percent of parents read to their children on any given day. Upon entering formal education, reading is increasingly reframed as a tedious chore rather than a source of intellectual discovery, and students are routinely presented with isolated excerpts rather than complete works.",
+        "E": "Ultimately, the societal abandonment of the written word carries profound implications that extend far beyond the classroom. The act of reading is a sequential, logical process that actively trains the human mind in analytical reasoning. Not until this capacity is fully restored can society hope to foster a citizenry capable of resisting superficial manipulation. When individuals surrender the patience required to digest extended arguments, they forfeit their ability to think for themselves, delegating their intellectual sovereignty to automated algorithms and simplified summaries."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "true_false_not_given",
+          "instructions": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
+          "items": [
+            {
+              "n": 1,
+              "statement": "The decline in reading is concentrated mainly among younger, less educated citizens.",
+              "answer": "FALSE"
+            },
+            {
+              "n": 2,
+              "statement": "People today generally read fewer written words overall than previous generations.",
+              "answer": "FALSE"
+            },
+            {
+              "n": 3,
+              "statement": "AI summarisation tools have made some students less willing to read full texts.",
+              "answer": "TRUE"
+            },
+            {
+              "n": 4,
+              "statement": "Concern about changing reading habits first appeared with the rise of digital media.",
+              "answer": "FALSE"
+            },
+            {
+              "n": 5,
+              "statement": "Most schools have increased the number of complete books assigned to students.",
+              "answer": "NOT GIVEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-021",
+      "title": "The Modern Milk Dilemma: Synthesizing Nutritional Efficacy and Ecological Sustainability",
+      "source": "Adapted teaching material (dairy vs plant-based milk research)",
+      "category": "environment",
+      "paragraphs": {
+        "A": "Upon entering a contemporary grocery establishment, consumers are confronted with a dizzying array of products vying for their attention. While bovine dairy has historically reigned supreme, a modern barrage of plant-based alternatives has disrupted the market. To transform a plant-based raw material into a substance resembling milk, specialized manufacturing protocols must be deployed: raw source materials are soaked, drained, rinsed, and milled into a paste, or dehydrated and ground into flour, then fortified with vitamins and minerals, flavored, and diluted with water.",
+        "B": "A standard 250-milliliter glass of cow's milk contains approximately 8 grams of protein, 12 grams of carbohydrates, and between 2 and 8 grams of lipids. This single portion delivers roughly 15% of the daily protein requirements for an average adult. Conversely, most vegetable-derived beverages are characterized by lower carbohydrate and fat contents, yet they possess a superior concentration of beneficial lipids. However, it is not uncommon for these plant-based alternatives to be not entirely devoid of nutritional deficiencies; critical nutrients, particularly vitamin D and calcium, do not occur naturally in the majority of plant-based formulations, thereby necessitating post-processing fortification.",
+        "C": "Both almond and oat beverages are relatively low in protein when compared to animal-derived dairy. While almond milk has the least nutrients of the four leading types of milk, oat milk is replete with beta-glucans, a highly beneficial form of soluble dietary fiber. Soy milk, meanwhile, contains a comparable quantity of protein to bovine milk and represents an excellent source of potassium. Ultimately, individual physiological characteristics dictate the optimal choice; lactose-intolerant individuals will find plant-based milks inherently superior, whereas those allergic to tree nuts must completely avoid almond-derived beverages.",
+        "D": "For a significant portion of the modern populace, the determination of the optimal milk extends beyond personal biochemical needs to encompass environmental stewardship. The production of bovine milk is extraordinarily land-intensive, demanding nearly 4 square kilometers of land to yield a single 250-milliliter glass. Strikingly, cultivating crops directly for plant-based milks requires merely a fraction of that land—only about a quarter of a square kilometer per glass. Although almond milk exhibits a similarly low land requirement, soybean cultivation is recognized as a major driver of global deforestation, whereas oat and almond cultivation do not carry the same ecological liabilities.",
+        "E": "Dairy milk production is exceptionally resource-intensive, requiring approximately 120 liters of water per glass. Almond milk occupies the second position, consuming more than 70 liters of water per glass, largely because almond trees must be irrigated consistently to prevent dieback. Oats and soybeans, by contrast, require substantially less water, consuming only 5 to 10 liters per glass. In terms of atmospheric pollution, plant-based milks generate a modest 0.1 to 0.2 kilograms of greenhouse gas emissions per glass, while dairy farming contributes over half a kilogram, heavily exacerbated by methane released by the ruminants themselves."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "matching_features",
+          "instructions": "Look at the following statements and the list of milk types below. Match each statement with the correct milk type, A-D.",
+          "features": [
+            "A. Cow's milk",
+            "B. Almond milk",
+            "C. Oat milk",
+            "D. Soy milk"
+          ],
+          "items": [
+            {
+              "n": 1,
+              "statement": "It provides a protein content roughly equal to that of dairy milk.",
+              "answer": "D"
+            },
+            {
+              "n": 2,
+              "statement": "It has the lowest overall nutrient content among the milks compared.",
+              "answer": "B"
+            },
+            {
+              "n": 3,
+              "statement": "Its production requires by far the greatest amount of water per glass.",
+              "answer": "A"
+            },
+            {
+              "n": 4,
+              "statement": "It is rich in a type of fibre known as beta-glucans.",
+              "answer": "C"
+            },
+            {
+              "n": 5,
+              "statement": "Producing it requires the largest area of land per glass.",
+              "answer": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-022",
+      "title": "The Architecture of Global Education: Rankings, Equity, and Policy Choices",
+      "source": "Adapted from BBC World Service reporting on global education systems (not verbatim copied)",
+      "category": "society_global",
+      "paragraphs": {
+        "A": "The quest for educational excellence has increasingly assumed a pivotal role in the geopolitical arena. Among the most influential instruments employed to evaluate national academic efficacy is the Programme for International Student Assessment (PISA), initiated by the OECD in the year 2000. Not without considerable controversy was the initial implementation of these assessments, as critics vigorously questioned the feasibility of comparing vastly disparate educational systems. However, the architects of these examinations approached scholastic performance through the same analytical lens applied to macroeconomic indicators such as GDP.",
+        "B": "An empirical analysis of PISA outcomes reveals a striking geographic consolidation of academic supremacy. East Asian jurisdictions, namely Singapore, South Korea, and Hong Kong, have consistently dominated the upper echelons of these global rankings. Finland has recently witnessed a discernible decline in its performance, whereas Estonia has emerged as a formidable European powerhouse. Under no circumstances can the geographical challenges of these territories be disregarded; many, such as Estonia and Taiwan, are situated adjacent to disproportionately larger neighbors, while others, like Singapore, are completely devoid of abundant natural resources, leading these societies to prioritize human capital investment.",
+        "C": "Nonetheless, the relentless pursuit of high test scores has ignited an intense international debate regarding what truly constitutes a comprehensive, well-rounded education. In many East Asian systems, extraordinary academic accomplishments are often achieved at a severe cost to students' mental well-being. Furthermore, the role of financial resource allocation in driving academic success is complex: while basic funding is indispensable, seldom do subsequent increases in expenditure automatically yield superior outcomes. Extensive PISA data suggests that reducing class sizes has a negligible impact on student achievement beyond a certain threshold.",
+        "D": "In stark contrast to the cohesive models of top-tier nations, the educational landscapes of several prominent Western powers are marked by profound internal disparities. The United States exhibits a remarkably mediocre average PISA performance, primarily attributable to a severe domestic divide in wealth distribution and localized school funding. Had some affluent American states participated as independent entities, they would have ranked among the global academic elite, whereas several southern states perform at levels comparable to developing nations.",
+        "E": "The gender dimension of academic performance introduces another layer of complexity. Across almost all participating countries, girls consistently outperform boys in reading literacy. Yet, while gender gaps in developed nations represent an analytical puzzle, girls in other parts of the world face absolute exclusion; Afghanistan is currently the sole nation to prohibit female students over the age of twelve from attending schools. Ultimately, PISA rankings demonstrate that the structure and efficacy of an education system are never accidents of nature, but direct products of deliberate policy choices."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "short_answer_question",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "items": [
+            {
+              "n": 1,
+              "question": "Which organisation initiated the PISA assessments in the year 2000?",
+              "answer": "the OECD"
+            },
+            {
+              "n": 2,
+              "question": "Besides Estonia, which small territory mentioned in Paragraph B is next to a much larger neighbour?",
+              "answer": "Taiwan"
+            },
+            {
+              "n": 3,
+              "question": "According to Paragraph C, what popular policy has a negligible effect on achievement beyond a certain point?",
+              "answer": "reducing class sizes"
+            },
+            {
+              "n": 4,
+              "question": "According to Paragraph D, which country shows a mediocre average PISA score due to internal wealth disparities?",
+              "answer": "the United States"
+            },
+            {
+              "n": 5,
+              "question": "According to Paragraph E, which subject shows girls consistently outperforming boys?",
+              "answer": "reading literacy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-023",
+      "title": "The Invisible Parasite: Food Safety and Supply Chain Fragility in the United States",
+      "source": "Adapted teaching material (food safety and public health)",
+      "category": "society_global",
+      "paragraphs": {
+        "A": "Seldom in the annals of public health has the United States witnessed a parasitic food safety crisis of such magnitude as the current Cyclospora outbreak. This unprecedented epidemic has spread across forty-seven states, striking down thousands of citizens with no scientifically identifiable source pinpointed by federal investigators. Compounding this epidemiological emergency is a critical administrative vacuum at the Food and Drug Administration (FDA), which has been operating without permanent leadership. The FDA's early assertion identifying iceberg lettuce as the possible culprit was later revealed to be a false positive, and fast-food stocks experienced significant declines upon the dissemination of the outbreak news.",
+        "B": "Tracing the trajectory of Cyclospora presents unique scientific hurdles that distinguish it from common bacterial pathogens such as E. coli and Salmonella. Unlike bacteria, which actively reproduce on environmental surfaces, parasites do not multiply outside a host, rendering contaminated food detection an exceptionally prolonged task. Since fresh lettuce possesses an exceptionally short shelf life, a contaminated batch typically traverses the entire food distribution system long before patients receive a positive diagnosis, making the acquisition of reliable traceback data absolutely indispensable.",
+        "C": "The vulnerability of the regulatory framework has been further exacerbated by political shifts that commenced in early 2025. Funding for FoodNet, a crucial surveillance network, was reduced, resulting in a contraction of the pathogens routinely monitored; Cyclospora was altogether removed from the list of high-priority organisms. According to a former CDC director, the CDC's Division of Parasitic Diseases and Malaria lost a staggering forty million dollars in funding, resulting in the loss of an estimated twenty-five percent of its specialized workforce.",
+        "D": "Food safety experts stress that the systemic breakdown of the nation's regulatory apparatus is not a novel phenomenon. The Food Center's budget stood at approximately 1.17 billion dollars, representing a mere seventeen percent of the FDA's total budget. It was only after a series of high-profile scandals that lawmakers enacted reform, and the Food Safety Modernization Act was signed into law in 2011. Nevertheless, a critical food traceability rule, which would have allowed federal authorities to swiftly isolate contamination sources, remains unimplemented.",
+        "E": "Compounding these regulatory shortcomings are the sweeping structural transformations within the agricultural private sector, where small food distributors are increasingly consolidating. While purchasing a single head of intact lettuce minimizes risk, modern consumer preferences favor pre-packaged, chopped lettuce bags, which contain leaves harvested from hundreds of different heads, creating a high probability of pooled contamination. Experts contend that the prevailing opaqueness within the supply chain prevents both distributors and consumers from discerning where ingredients originate."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "summary_completion",
+          "instructions": "Complete the summary below using words from the box.",
+          "summary": "The current Cyclospora outbreak has been made worse by several factors. Detecting the source is unusually slow because, unlike bacteria, the parasite cannot ___(1)___ outside of a host. At the same time, recent budget ___(2)___ have weakened the CDC's ability to monitor pathogens, and Cyclospora was even removed from its list of ___(3)___ organisms. A key traceability rule created under the FSMA still has not been ___(4)___. Finally, the growing ___(5)___ of small food suppliers into a few large companies means that pre-packaged salad bags mix leaves from hundreds of different farms, raising the risk of contamination.",
+          "wordBank": [
+            "A. implemented",
+            "B. consolidation",
+            "C. cuts",
+            "D. reproduce",
+            "E. high-priority",
+            "F. detected",
+            "G. expansion",
+            "H. traceable"
+          ],
+          "items": [
+            {
+              "n": 1,
+              "answer": "D"
+            },
+            {
+              "n": 2,
+              "answer": "C"
+            },
+            {
+              "n": 3,
+              "answer": "E"
+            },
+            {
+              "n": 4,
+              "answer": "A"
+            },
+            {
+              "n": 5,
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-024",
+      "title": "The Cognitive and Physiological Architecture of Interpersonal Conflict",
+      "source": "Original teaching material (psychology of conflict and emotional regulation)",
+      "category": "psychology_society",
+      "paragraphs": {
+        "A": "Within the modern corporate landscape, interpersonal friction is often perceived as an inevitable byproduct of collaborative endeavors. Even minor disagreements are frequently interpreted by the human brain not merely as routine cognitive differences, but as existential threats to an individual's career, ego, and professional identity. Upon detecting such a perceived threat, the human brain initiates a rapid, involuntary physiological cascade. Cortisol immediately floods the bloodstream, impairing the prefrontal cortex, while the amygdala becomes hyperactive, prompting immediate defensiveness.",
+        "B": "Once this neural mechanism is activated, the brain instinctively constructs a highly subjective narrative designed primarily for self-preservation. Individuals tend to formulate a rigid dichotomy wherein they cast themselves as the righteous, victimized party and their counterparts as the malevolent aggressors. It is not uncommon for people to fail to realize that these internal rationalizations are largely fabricated. For instance, receiving a curt email often triggers an immediate assumption of malice, when in fact the colleague may simply be experiencing an exceptionally demanding day.",
+        "C": "Navigating these volatile situations successfully demands a high degree of self-awareness alongside rigorous emotional self-control. In the crucible of conflict, individuals typically exhibit one of two instinctual tendencies: they either become immediately defensive, projecting all culpability onto the other party, or they conversely internalize the blame entirely. Only when an individual actively monitors these deeply ingrained psychological habits can they hope to break the cycle of unproductive reactivity.",
+        "D": "To mitigate the destructive potential of interpersonal friction, several evidence-based mindfulness techniques can be employed. Taking a deep, deliberate breath and grounding oneself in the physical present can prevent cognitive overwhelm. Another effective strategy involves cognitive distancing, whereby an individual visualizes themselves as a detached observer—akin to a metaphorical \"fly on the wall\"—viewing the conflict from a neutral perspective. Furthermore, the practice of emotion labeling, silently naming feelings such as \"anger\", has been shown to reduce amygdala activity.",
+        "E": "Ultimately, the most effective strategy for preserving cognitive composure is the deliberate implementation of a physical or temporal break. It is highly critical that the individual takes full ownership of the need for this pause, utilizing \"I-centered\" statements rather than accusatorily suggesting that the other party needs to calm down. Rarely do confrontational exchanges resolve productively when one party condescendingly points out the other's emotional instability."
+      },
+      "questions": [
+        {
+          "group": "1-5",
+          "type": "sentence_completion",
+          "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+          "items": [
+            {
+              "n": 1,
+              "prompt": "During conflict, a surge of ___ impairs the brain's prefrontal cortex.",
+              "answer": "cortisol"
+            },
+            {
+              "n": 2,
+              "prompt": "A curt email is often wrongly assumed to be a sign of ___ from the sender.",
+              "answer": "malice"
+            },
+            {
+              "n": 3,
+              "prompt": "Imagining oneself as a neutral \"fly on the wall\" is a technique known as cognitive ___.",
+              "answer": "distancing"
+            },
+            {
+              "n": 4,
+              "prompt": "Silently naming an emotion such as anger is called emotion ___, and it reduces amygdala activity.",
+              "answer": "labeling"
+            },
+            {
+              "n": 5,
+              "prompt": "When requesting a break, individuals should use ___ statements rather than blaming the other person.",
+              "answer": "I-centered"
+            }
+          ]
+        }
+      ]
     }
   ],
   "_excluded": [
