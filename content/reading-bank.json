@@ -2345,6 +2345,280 @@
           ]
         }
       ]
+    },
+    {
+      "id": "reading-029",
+      "title": "Redefining Solitude and Social Well-being",
+      "source": "Original teaching material (physiology of loneliness and social connection)",
+      "category": "psychology_society",
+      "paragraphs": {
+        "A": "Neuroscientists have long been fascinated by the physical toll that loneliness exacts on the human body. Functional brain scans reveal that social pain and physical pain activate overlapping neural circuitry, meaning that the ache of exclusion is processed by the brain in ways strikingly similar to a physical injury. In one notable experiment, participants who viewed photographs of a romantic partner while experiencing a painful stimulus reported significantly reduced pain intensity, and brain scans confirmed correspondingly lower activity in pain-related regions, suggesting that a felt sense of connection can act as a genuine physiological buffer against distress.",
+        "B": "The COVID-19 pandemic offered an unplanned, global natural experiment in enforced isolation, and its effects were not evenly distributed across the population. Contrary to some early assumptions, researchers found that women were disproportionately affected by the erosion of social ties during extended lockdowns, with survey data indicating that more than half of women reported losing regular contact with close friends, compared with a notably smaller proportion of men. One explanation offered is that female friendships tend to rely more heavily on sustained face-to-face interaction and small rituals of care that proved difficult to maintain remotely.",
+        "C": "Public discourse and media coverage have historically treated solitude with a distinctly negative slant, often conflating the voluntary choice to be alone with the involuntary condition of chronic loneliness. Content analyses of major news outlets have found that negative portrayals of time spent alone outnumber positive or neutral portrayals by a ratio of roughly ten to one, reinforcing a cultural narrative in which solitude is something to be feared or pitied rather than a state that can, under the right circumstances, be restorative.",
+        "D": "In response to mounting evidence of social fragmentation, psychologists have increasingly advocated for a strategy known as cognitive reframing, whereby individuals are encouraged to consciously reinterpret solitary time not as a deficiency but as an opportunity for reflection and recovery. Educational institutions and media organizations are being urged to play a role in reducing the stigma historically attached to being alone, while public health campaigns increasingly encourage individuals to display vulnerability openly, on the grounds that admitting difficulty is often the first step toward rebuilding genuine social bonds."
+      },
+      "questions": [
+        {
+          "group": "1-4",
+          "type": "multiple_choice",
+          "instructions": "Choose the correct letter, A, B, C or D.",
+          "items": [
+            {
+              "n": 1,
+              "question": "What did brain scans reveal about participants who viewed photos of a romantic partner while in pain?",
+              "options": [
+                "A) They reported no change in pain intensity",
+                "B) They showed reduced activity in pain-related brain regions",
+                "C) They showed increased activity in the amygdala only",
+                "D) They were unable to complete the experiment"
+              ],
+              "answer": "B"
+            },
+            {
+              "n": 2,
+              "question": "According to Paragraph B, which group was most affected by lost friendships during the pandemic?",
+              "options": [
+                "A) Men",
+                "B) Children",
+                "C) Women",
+                "D) The elderly"
+              ],
+              "answer": "C"
+            },
+            {
+              "n": 3,
+              "question": "According to Paragraph C, how are media portrayals of solitude generally skewed?",
+              "options": [
+                "A) Overwhelmingly positive",
+                "B) Roughly balanced between positive and negative",
+                "C) Mostly neutral",
+                "D) Overwhelmingly negative"
+              ],
+              "answer": "D"
+            },
+            {
+              "n": 4,
+              "question": "What does 'cognitive reframing', as described in Paragraph D, involve?",
+              "options": [
+                "A) Avoiding all social contact",
+                "B) Reinterpreting time alone as potentially valuable rather than deficient",
+                "C) Increasing media coverage of loneliness statistics",
+                "D) Replacing therapy with medication"
+              ],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-030",
+      "title": "The Cognitive Architecture of the Multilingual Mind",
+      "source": "Original teaching material (neuroscience of bilingualism)",
+      "category": "science_tech",
+      "paragraphs": {
+        "A": "For much of the twentieth century, conventional wisdom held that raising a child bilingually risked confusing their developing mind, potentially delaying language acquisition and impairing academic performance. This historical assumption has, however, been proven entirely incorrect by decades of subsequent cognitive research. Contemporary neuroimaging studies demonstrate that far from causing confusion, early exposure to two languages actively constructs entirely new neural pathways, endowing bilingual children with structurally distinct brains compared with their monolingual peers.",
+        "B": "A landmark 2023 study conducted at Great Ormond Street, using resting-state functional MRI scans on children between the ages of eight and ten, found that those who had acquired a second language before the age of five exhibited the strongest neural connectivity at rest, particularly within networks associated with executive control. Researchers further noted a marked behavioural distinction between how bilinguals approach emotional versus rational decision-making, with many participants reporting that their first language felt more emotionally charged while their second language, often acquired in more formal settings such as school or work, felt comparatively detached and logical.",
+        "C": "Intriguingly, the cognitive advantages of bilingualism are not exclusive to those who acquire a second language in early childhood. Although learning a language later in life is undeniably more challenging, the adult brain compensates by modifying existing neural networks and forging additional connections, a process that some researchers argue yields even greater cognitive dividends than effortless childhood acquisition, since it requires more deliberate and sustained mental effort.",
+        "D": "Perhaps the most striking finding to emerge from this field concerns the relationship between bilingualism and neurodegenerative disease. A frequently cited 2007 study conducted in Toronto found that bilingual patients displayed the outward symptoms of dementia, including Alzheimer's disease, between four and four and a half years later on average than monolingual patients of otherwise comparable cognitive profiles, suggesting that the sustained mental exercise of managing two language systems may help to build a form of cognitive reserve."
+      },
+      "questions": [
+        {
+          "group": "1-4",
+          "type": "matching_information",
+          "instructions": "Which paragraph contains the following information?",
+          "items": [
+            {
+              "n": 1,
+              "statement": "A description of an outdated belief about the effects of bilingualism on children.",
+              "answer": "A"
+            },
+            {
+              "n": 2,
+              "statement": "A reference to a difference in how bilinguals experience their first versus second language emotionally.",
+              "answer": "B"
+            },
+            {
+              "n": 3,
+              "statement": "An explanation of why learning a language as an adult might bring extra cognitive benefits.",
+              "answer": "C"
+            },
+            {
+              "n": 4,
+              "statement": "A study showing a delay in the onset of a specific disease among bilingual patients.",
+              "answer": "D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-031",
+      "title": "The Plastic Brain: How Literacy and Digitalization Reshape the Neural Landscape",
+      "source": "Original teaching material (neuroscience of reading)",
+      "category": "science_tech",
+      "paragraphs": {
+        "A": "Historically, language has been widely regarded as an innate human capacity, a natural extension of our biological heritage. However, scientific investigations have revealed that reading, which represents the graphic codification of spoken language, is anything but natural. While a neurotypical human brain is genetically programmed with the biological circuitry required for visual perception and vocalization, it possesses no innate neurological architecture dedicated to literacy. To circumvent this limitation, the brain must co-opt pre-existing neural pathways originally designed for visual, auditory, and language processing.",
+        "B": "Modern neuroscientific research demonstrates that learning to read is a whole-brain process that radically reshapes the human mind. Rather than relying on a singular \"reading center\", literacy necessitates the simultaneous activation of all four lobes of the cerebral cortex. As an individual acquires reading proficiency, the brain is effectively rewired, establishing novel connections between visual recognition systems and the neural centers responsible for auditory and semantic processing, demonstrating the remarkable neuroplasticity of the human brain.",
+        "C": "The profound impact of linguistic systems on brain structure is most vividly illustrated when comparing alphabetic languages with logographic systems. In alphabetic systems like English, words are constructed from a finite set of letters that correspond to phonemes. Conversely, logographic writing systems, of which Chinese characters are a prime example, represent objects or ideas directly through intricate symbols, activating fundamentally different neural regions and relying far more heavily on visual memory. This neurological divergence was dramatically corroborated by a clinical study of a bilingual patient fluent in English and Chinese, whose stroke-induced brain damage impaired his ability to read Chinese characters while leaving his English reading proficiency completely intact.",
+        "D": "Beyond cognitive and structural modifications, reading exerts a profound influence on the human body, manifesting in tangible physical and emotional experiences. When immersed in a narrative, readers frequently report feeling visceral sensations that mirror the experiences of fictional characters. This is not merely a metaphorical reaction; neuroimaging studies have shown that reading activates the anterior insula, a brain region responsible for processing bodily sensations, blurring the line between imagined and lived experience."
+      },
+      "questions": [
+        {
+          "group": "1-4",
+          "type": "true_false_not_given",
+          "instructions": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
+          "items": [
+            {
+              "n": 1,
+              "statement": "The human brain has a dedicated region specifically evolved for reading.",
+              "answer": "FALSE"
+            },
+            {
+              "n": 2,
+              "statement": "Learning to read activates only one specific area of the brain.",
+              "answer": "FALSE"
+            },
+            {
+              "n": 3,
+              "statement": "After his stroke, the bilingual patient lost the ability to read both English and Chinese.",
+              "answer": "FALSE"
+            },
+            {
+              "n": 4,
+              "statement": "Reading fiction can trigger activity in brain regions associated with physical sensation.",
+              "answer": "TRUE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-032",
+      "title": "The Socio-Economic and Ecological Ramifications of a Meatless Biosphere",
+      "source": "Original teaching material (hypothetical scenario on global food systems)",
+      "category": "environment",
+      "paragraphs": {
+        "A": "In a hypothetical scenario where global meat consumption ceases abruptly, the immediate ecological ramifications would be nothing short of revolutionary. Presently, the global biomass of livestock represents a staggering demographic imbalance, with domestic herds numbering over four times the global human population. Should the planetary diet shift overnight to a meatless model, food-related greenhouse gas emissions would plummet by approximately 63% almost instantaneously, highlighting the immense environmental footprint of animal husbandry.",
+        "B": "In the wake of this sudden dietary shift, humanity would face an immediate nutritional deficit that must be rapidly addressed. Every year, human society processes approximately 70 billion chickens, 1.5 billion pigs, and 300 million cattle for consumption. While dietitians agree that a plant-based diet contains all necessary nutrients for a healthy life, global agricultural infrastructure cannot adapt overnight, and produce prices would likely skyrocket. In regions such as Mongolia, where the harsh, arid environment makes vegetable cultivation exceptionally difficult, a sudden absence of meat would leave populations with severe dietary scarcities.",
+        "C": "Beyond immediate cultural and geographic disruptions, the labor market would undergo a massive and painful restructuring. As the meat industry collapses, tens of millions of commercial anglers and livestock farmers in developing economies would face abrupt unemployment, with few alternative livelihoods readily available in the short term. Not only would indigenous populations, such as salmon-eating communities of the Pacific Northwest, lose their primary sustenance, but they would also lose an integral component of their cultural heritage.",
+        "D": "Over a longer time horizon, however, proponents argue that the reallocated agricultural land currently devoted to grazing and feed-crop cultivation could be repurposed for reforestation or the restoration of native grasslands, potentially sequestering vast quantities of atmospheric carbon. Critics counter that such a transition, however ecologically appealing in theory, would require decades of careful economic planning to avoid triggering food insecurity and social unrest across vulnerable regions."
+      },
+      "questions": [
+        {
+          "group": "1-4",
+          "type": "short_answer_question",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "items": [
+            {
+              "n": 1,
+              "question": "By approximately what percentage would food-related greenhouse gas emissions fall if meat consumption stopped overnight?",
+              "answer": "63%"
+            },
+            {
+              "n": 2,
+              "question": "Which country is given as an example of a place where vegetable cultivation is especially difficult?",
+              "answer": "Mongolia"
+            },
+            {
+              "n": 3,
+              "question": "Which community is mentioned as relying on salmon for both food and cultural identity?",
+              "answer": "Pacific Northwest"
+            },
+            {
+              "n": 4,
+              "question": "What could grazing land be used for instead, according to Paragraph D?",
+              "answer": "reforestation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-033",
+      "title": "Japan's Demographic Decline and the Escalating \"Akiya\" Crisis",
+      "source": "Original teaching material (Japan housing and demographic policy)",
+      "category": "society_global",
+      "paragraphs": {
+        "A": "Japan is currently grappling with an unprecedented housing crisis characterized by a staggering volume of abandoned properties. Nationwide, approximately nine million homes, colloquially known as akiya (literally meaning \"empty home\"), lie vacant, presenting a stark visual testament to the country's profound demographic shift. This phenomenon is inextricably linked to Japan's existential crisis of an aging and shrinking population, and statisticians project that by 2038, roughly one in three homes nationwide could stand empty.",
+        "B": "The causes of the akiya crisis are manifold, but inheritance law and rural depopulation feature prominently. When elderly rural homeowners pass away, their properties are frequently inherited by adult children who have long since relocated to Tokyo or other major cities and have no intention of returning. Because demolishing an old structure can trigger a significant increase in property tax, many heirs simply abandon the property rather than incur the cost of either renovating or tearing it down.",
+        "C": "In recent years, this glut of vacant housing has created unexpected opportunities for foreign buyers seeking affordable real estate. Reports of akiya being purchased for the equivalent of only a few thousand dollars have circulated widely online, attracting international attention. However, prospective buyers are frequently cautioned that the headline price is often deceptive; renovation costs, unclear property boundaries, and local bureaucratic hurdles can rapidly inflate the true cost of ownership to a level comparable with purchasing property in a major city.",
+        "D": "Municipal governments across Japan have responded to the crisis with a range of initiatives, including subsidized \"akiya banks\"—online databases that list available vacant properties at reduced prices in an effort to encourage relocation and revitalize shrinking rural communities. While some of these programs have achieved modest success in attracting young families and remote workers, demographers caution that without a broader reversal in national birth rates, the fundamental imbalance between housing supply and population will persist for decades to come."
+      },
+      "questions": [
+        {
+          "group": "1-4",
+          "type": "sentence_completion",
+          "instructions": "Complete the sentences below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "items": [
+            {
+              "n": 1,
+              "prompt": "By 2038, statisticians project that about one in three Japanese homes could be ___.",
+              "answer": "empty"
+            },
+            {
+              "n": 2,
+              "prompt": "Demolishing an old akiya can trigger a rise in ___, discouraging heirs from tearing it down.",
+              "answer": "property tax"
+            },
+            {
+              "n": 3,
+              "prompt": "Buyers are warned that hidden costs such as renovation and unclear ___ can make an akiya far more expensive than its advertised price.",
+              "answer": "property boundaries"
+            },
+            {
+              "n": 4,
+              "prompt": "Municipal governments have created online ___ that list available vacant homes at reduced prices.",
+              "answer": "akiya banks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-034",
+      "title": "The Dynamic Sculptors of Earth: Mechanisms, Taxonomies, and Environmental Implications of Volcanism",
+      "source": "Original teaching material (geology of volcanism)",
+      "category": "science_tech",
+      "paragraphs": {
+        "A": "Volcanoes represent one of the most visually dramatic manifestations of the geological processes that continuously reshape the Earth's surface. At their core, volcanic eruptions occur when molten rock, known as magma, accumulates in a subterranean chamber beneath the crust and is eventually forced upward through a vent, whereupon it is termed lava once it reaches the surface. The specific behaviour of an eruption—whether it manifests as a slow, effusive flow or a violently explosive blast—is determined largely by the magma's viscosity, which is itself governed by its silica content and dissolved gas concentration.",
+        "B": "Volcanologists broadly classify volcanoes into several distinct morphological categories. Shield volcanoes, such as those found in Hawaii, are characterized by low-viscosity, silica-poor magma that flows readily across great distances, producing broad, gently sloping structures. In stark contrast, stratovolcanoes, exemplified by Mount Fuji and Mount Vesuvius, are built from alternating layers of viscous lava and pyroclastic material, resulting in steep, conical profiles that are prone to catastrophic explosive eruptions when gas pressure builds beyond the structure's tensile limits.",
+        "C": "Beyond their immediate destructive potential, volcanic eruptions exert profound and far-reaching effects on global climate systems. Large-scale eruptions inject substantial quantities of sulphur dioxide into the stratosphere, where the gas reacts with water vapour to form fine aerosol particles capable of reflecting incoming solar radiation back into space. Historical records indicate that the 1815 eruption of Mount Tambora in Indonesia precipitated a period known as the \"Year Without a Summer\", during which anomalously cold temperatures across the Northern Hemisphere led to widespread crop failures.",
+        "D": "Despite their destructive capacity, volcanic regions have long attracted human settlement, drawn by the exceptional fertility of soils enriched by weathered volcanic ash. This precarious trade-off between agricultural bounty and existential risk has shaped civilizations for millennia, from the ancient communities that flourished beneath Vesuvius to contemporary populations residing along the volcanically active Pacific Ring of Fire, where an estimated 800 million people currently live within range of an active volcano."
+      },
+      "questions": [
+        {
+          "group": "1-4",
+          "type": "matching_features",
+          "instructions": "Match each description with the correct volcano type, A-B.",
+          "features": [
+            "A. Shield volcano",
+            "B. Stratovolcano"
+          ],
+          "items": [
+            {
+              "n": 1,
+              "statement": "Produces a broad, gently sloping structure due to low-viscosity magma.",
+              "answer": "A"
+            },
+            {
+              "n": 2,
+              "statement": "Is built from alternating layers of lava and pyroclastic material.",
+              "answer": "B"
+            },
+            {
+              "n": 3,
+              "statement": "Is prone to violent explosive eruptions when gas pressure builds up.",
+              "answer": "B"
+            },
+            {
+              "n": 4,
+              "statement": "Is exemplified by volcanoes found in Hawaii.",
+              "answer": "A"
+            }
+          ]
+        }
+      ]
     }
   ],
   "_excluded": [
