@@ -392,19 +392,23 @@
       "paragraphs": {
         "A": "When people are faced with choices in unfamiliar situations, they frequently follow the lead of those they consider credible or knowledgeable. This decision-making process functions as a \"mental shortcut,\" allowing individuals to make quick choices and navigate uncertain times without extensive research. This tendency is not a newly acquired adult trait; humans begin adopting this pattern from an early age, first copying their parents and teachers to make sense of the world. Today, modern businesses capitalize on this deeply ingrained human habit through celebrity endorsements and professional recommendations, such as dentists endorsing toothpaste or elite athletes promoting specialized sportswear.",
         "B": "In recent years, many major fast-food chains have replaced traditional counter staff with interactive touchscreen ordering machines. Interestingly, these businesses have reported a noticeable increase in revenue as a direct result. Behavioural science offers a compelling psychological explanation for this phenomenon. When interacting with human cashier staff, many customers experience an underlying anxiety of being \"judged\" for their eating choices, which frequently leads them to reject additional offers like extra fries or larger portions. Computers, however, eliminate this social pressure. Combined with the fact that touchscreen systems give customers more time to browse products visually, customers are far more inclined to accept automated \"upsell\" offers. Consequently, these digital prompts typically boost the average \"basket spend\"—the total money spent in a single transaction—by 25% to 30%.",
-        "C": "The application of behavioural science is not exclusive to commercial enterprises seeking higher profits; international organizations also employ these techniques to prompt positive social change. This approach is rooted in \"nudge theory,\" which suggests that human habits can be effectively altered through small, subtle prompts rather than strict mandates. For instance, in Tunisia, the United Nations World Food Programme designed an innovative campaign to encourage local citizens to eat meals together more frequently. Rather than relying on traditional public announcements, they decided to think outside the box by producing a creative TV drama series set entirely inside a restaurant. The organizers aimed to influence viewers through \"modelling\"—a psychological process where individuals learn, adapt, and alter their own actions by observing, imitating, and copying the emotional reactions and behaviours of relatable characters on screen."
+        "C": "The application of behavioural science is not exclusive to commercial enterprises seeking higher profits; international organizations also employ these techniques to prompt positive social change. This approach is rooted in \"nudge theory,\" which suggests that human habits can be effectively altered through small, subtle prompts rather than strict mandates. For instance, in Tunisia, the United Nations World Food Programme designed an innovative campaign to encourage local citizens to eat meals together more frequently. Rather than relying on traditional public announcements, they decided to think outside the box by producing a creative TV drama series set entirely inside a restaurant. The organizers aimed to influence viewers through \"modelling\"—a psychological process where individuals learn, adapt, and alter their own actions by observing, imitating, and copying the emotional reactions and behaviours of relatable characters on screen.",
+        "D": "A further compelling illustration of nudge theory's power lies in organ donation policy. Countries that employ an \"opt-out\" system, in which citizens are automatically registered as donors unless they actively withdraw, consistently report dramatically higher donation rates than countries relying on an \"opt-in\" system that requires active registration. Austria, which uses an opt-out framework, boasts a donor registration rate of nearly 100%, whereas neighbouring Germany, which relies on opt-in registration, registers only around 12% of its population. This stark contrast is attributed not to differing cultural attitudes toward organ donation, but simply to the default option presented to citizens: individuals are cognitively inclined to accept whichever choice requires the least effort, a phenomenon researchers term the \"default effect.\"",
+        "E": "Despite its demonstrated effectiveness, nudge theory is not without its critics. Some ethicists argue that subtly steering individuals toward particular decisions, even when the intended outcome is ostensibly beneficial, constitutes a form of manipulation that undermines personal autonomy and informed consent. This tension has given rise to the term \"libertarian paternalism,\" which describes policies that preserve an individual's freedom to choose while still steering that choice in a preferred direction. Proponents counter that, because nudges never remove any option outright, they occupy a fundamentally different ethical category from bans or legal mandates. Nevertheless, most researchers advise that such techniques be deployed judiciously, reserved for genuinely pro-social outcomes rather than exploited for commercial gain."
       },
       "questions": [
         {
           "group": "1-3",
           "type": "matching_headings",
-          "instructions": "Reading Passage has three paragraphs, A-C. Choose the correct heading for each paragraph from the list of headings below.",
+          "instructions": "Reading Passage has five paragraphs, A-E. Choose the correct heading for each paragraph from the list of headings below.",
           "headings": [
             "i. Public information campaigns as an alternative to nudging",
             "ii. Turning entertainment into a tool for behaviour change",
             "iii. Following others as an inborn decision-making shortcut",
             "iv. Removing social pressure to increase spending",
-            "v. The financial risks of automation in retail"
+            "v. The financial risks of automation in retail",
+            "vi. Why the default option can determine a life-or-death decision",
+            "vii. A debate over whether subtle influence is a form of manipulation"
           ],
           "items": [
             {
@@ -424,34 +428,46 @@
               "paragraph": "C",
               "answer": "ii",
               "explanation": "原文：\"international organizations also employ these techniques to prompt positive social change...rooted in nudge theory\"（國際組織也用這些技巧推動社會正向改變，基礎是推力理論）。第C段主題是政府/組織如何運用行為科學，對應標題 ii。"
+            },
+            {
+              "n": 4,
+              "paragraph": "D",
+              "answer": "vi",
+              "explanation": "原文：\"individuals are cognitively inclined to accept whichever choice requires the least effort, a phenomenon researchers term the 'default effect'\"，第D段講器官捐贈預設選項如何決定登記率，對應標題 vi。"
+            },
+            {
+              "n": 5,
+              "paragraph": "E",
+              "answer": "vii",
+              "explanation": "原文：\"subtly steering individuals toward particular decisions...constitutes a form of manipulation that undermines personal autonomy\"，第E段討論推力理論是否算操控的倫理爭議，對應標題 vii。"
             }
           ]
         },
         {
-          "group": "4-7",
+          "group": "6-9",
           "type": "true_false_not_given",
           "instructions": "Do the following statements agree with the information given in the Reading Passage? Write TRUE, FALSE, or NOT GIVEN.",
           "items": [
             {
-              "n": 4,
+              "n": 6,
               "statement": "People only start following the lead of others they consider credible once they become adults.",
               "answer": "FALSE",
               "explanation": "原文：\"This tendency is not a newly acquired adult trait; humans begin adopting this pattern from an early age, first copying their parents and teachers\"（這不是成年才有的習慣，人從小就開始模仿）。題目說「只有成年後才開始」與原文相反，故為 FALSE。"
             },
             {
-              "n": 5,
+              "n": 7,
               "statement": "Touchscreen ordering systems have reduced the average spending per transaction at fast-food chains.",
               "answer": "FALSE",
               "explanation": "原文：\"these digital prompts typically boost the average basket spend by 25% to 30%\"（觸控點餐讓平均消費金額提升25%~30%）。題目說「降低」平均消費，與原文相反，故為 FALSE。"
             },
             {
-              "n": 6,
+              "n": 8,
               "statement": "Nudge theory relies on strict rules rather than subtle suggestions to change behaviour.",
               "answer": "FALSE",
               "explanation": "原文：\"nudge theory...suggests that human habits can be effectively altered through small, subtle prompts rather than strict mandates\"（推力理論是用細微暗示而非強制規定來改變習慣）。題目說「依賴嚴格規則」，與原文相反，故為 FALSE。"
             },
             {
-              "n": 7,
+              "n": 9,
               "statement": "The World Food Programme's Tunisia campaign used a television drama to encourage people to share meals.",
               "answer": "TRUE",
               "explanation": "原文：\"they decided to think outside the box by producing a creative TV drama series set entirely inside a restaurant\"（他們製作了一部以餐廳為背景的電視劇來推廣共餐）。與題目敘述相符，故為 TRUE。"
@@ -459,33 +475,52 @@
           ]
         },
         {
-          "group": "8-11",
+          "group": "10-13",
           "type": "yes_no_not_given",
           "instructions": "Do the following statements agree with the claims of the writer? Write YES, NO, or NOT GIVEN.",
           "items": [
             {
-              "n": 8,
+              "n": 10,
               "statement": "Following credible or knowledgeable people is a habit that starts only in adulthood.",
               "answer": "NO",
               "explanation": "原文：\"humans begin adopting this pattern from an early age\"（人從小就開始這個模式），並非只有成年後才有，故為 NO。"
             },
             {
-              "n": 9,
+              "n": 11,
               "statement": "Touchscreen ordering removes the social anxiety some customers feel about being judged.",
               "answer": "YES",
               "explanation": "原文：\"Computers, however, eliminate this social pressure\"（電腦點餐消除了這種社交壓力），與題目敘述相符，故為 YES。"
             },
             {
-              "n": 10,
+              "n": 12,
               "statement": "Nudge theory argues that behaviour is best changed through strict rules and mandates.",
               "answer": "NO",
               "explanation": "原文：\"human habits can be effectively altered through small, subtle prompts rather than strict mandates\"（推力理論靠的是細微暗示，不是嚴格規定），與題目敘述相反，故為 NO。"
             },
             {
-              "n": 11,
+              "n": 13,
               "statement": "The Tunisian TV drama campaign was more expensive to produce than traditional public announcements.",
               "answer": "NOT GIVEN",
               "explanation": "文章只提到這部電視劇的內容和目的，並未比較製作成本與傳統公告的花費，故為 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "group": "14-15",
+          "type": "short_answer_question",
+          "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+          "items": [
+            {
+              "n": 14,
+              "question": "According to Paragraph D, what phenomenon explains why opt-out systems produce far higher organ donation rates than opt-in systems?",
+              "answer": "the default effect",
+              "explanation": "原文：\"individuals are cognitively inclined to accept whichever choice requires the least effort, a phenomenon researchers term the 'default effect'\"，答案為 the default effect。"
+            },
+            {
+              "n": 15,
+              "question": "According to Paragraph E, what do some ethicists claim subtle nudges constitute, despite their beneficial intent?",
+              "answer": "manipulation",
+              "explanation": "原文：\"constitutes a form of manipulation that undermines personal autonomy and informed consent\"，答案為 manipulation。"
             }
           ]
         }
