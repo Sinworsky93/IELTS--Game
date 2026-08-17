@@ -11,7 +11,13 @@
         "Do you think you will continue to live in your hometown?",
         "What's the difference between your hometown and other cities in your country?",
         "Would you recommend your hometown to a foreign visitor?",
-        "Has your hometown changed much in recent years?"
+        "Has your hometown changed much in recent years?",
+        "Where do you come from?",
+        "What's the most attractive part of your hometown?",
+        "What's the weather like in your hometown?",
+        "Do you know much about the history of your hometown?",
+        "Would you say your hometown is a big city or a small town?",
+        "For you, what benefits are there to living in a big city?"
       ],
       "useful_words": [
         "hometown",
@@ -30,7 +36,9 @@
         "Do you plan to live there for a long time?",
         "How long have you lived in your current home?",
         "What's your favourite room in your home?",
-        "Do you live with family or by yourself?"
+        "Do you live with family or by yourself?",
+        "Are the transport facilities to your home very good?",
+        "What do you usually do in your house?"
       ],
       "useful_words": [
         "rented accommodation",
@@ -69,7 +77,10 @@
         "Do you plan ahead before you go shopping, or do you buy things on impulse?",
         "What kind of shops do you like visiting?",
         "Do you enjoy shopping online?",
-        "Has the way you shop changed in recent years?"
+        "Has the way you shop changed in recent years?",
+        "What's your favourite shop?",
+        "What kinds of shops are there where you live?",
+        "Do you think men and women have different opinions about shopping?"
       ],
       "useful_words": [
         "window shopping",
@@ -88,7 +99,12 @@
         "Has your taste in food changed since you were a child?",
         "Do you enjoy cooking?",
         "What's your favourite meal of the day?",
-        "Do you think it's important to eat healthily?"
+        "Do you think it's important to eat healthily?",
+        "What's your favourite food?",
+        "Have you always liked the same food?",
+        "Is there any food you dislike?",
+        "What is a common meal in your country?",
+        "Do you have a healthy diet?"
       ],
       "useful_words": [
         "home-cooked meal",
@@ -107,7 +123,10 @@
         "Would you like to change anything about your lifestyle?",
         "How much free time do you have during the week?",
         "What did you enjoy doing in your free time as a child?",
-        "Do you prefer relaxing at home or going out?"
+        "Do you prefer relaxing at home or going out?",
+        "What is your favourite leisure activity?",
+        "Do you prefer to spend your free time with other people or alone?",
+        "Do you think leisure time is important, and why?"
       ],
       "useful_words": [
         "unwind",
@@ -165,7 +184,10 @@
         "Would you like to be in a movie?",
         "How often do you go to the cinema?",
         "Do you prefer local films or foreign films?",
-        "What was the last film you watched?"
+        "What was the last film you watched?",
+        "Which movies do you like?",
+        "Do your friends like the same movies as you?",
+        "Would you like to be a movie star?"
       ],
       "useful_words": [
         "plot",
@@ -415,7 +437,12 @@
         "Do you like wearing T-shirts?",
         "Do you spend a lot of time choosing clothes?",
         "Do you wear different styles of clothes on weekdays and weekends?",
-        "What colour clothes do you like?"
+        "What colour clothes do you like?",
+        "Are clothes important to you?",
+        "Do you ever wear the traditional clothes of your country?",
+        "Where do you usually buy your clothes?",
+        "Have you ever worn a uniform?",
+        "Do most people in your country follow fashion?"
       ],
       "useful_words": [
         "dress code",
@@ -519,7 +546,9 @@
         "Do you want to be a teacher in the future?",
         "Do you have a teacher from your past that you still remember?",
         "Are you still in touch with your primary school teachers?",
-        "In what way has your favourite teacher helped you?"
+        "In what way has your favourite teacher helped you?",
+        "What's the difference between young and old teachers?",
+        "What are the qualities of a good teacher?"
       ],
       "useful_words": [
         "role model",
@@ -621,7 +650,16 @@
         "Do you prefer sad or happy music?",
         "Does happy music make you feel more excited?",
         "Have you taken any music classes?",
-        "Do you listen to music while doing other things?"
+        "Do you listen to music while doing other things?",
+        "Do you like music?",
+        "What kinds of music do you like to listen to?",
+        "When do you listen to music?",
+        "How much time do you spend listening to music every day?",
+        "Have you ever been to a concert before?",
+        "Did you learn music at school?",
+        "If you could learn a musical instrument, what would it be?",
+        "Do you think music is important?",
+        "Why should we teach music to children?"
       ],
       "useful_words": [
         "genre",
@@ -663,6 +701,513 @@
         "sedentary",
         "energised",
         "routine"
+      ]
+    },
+    {
+      "topic": "Outdoor Activities",
+      "questions": [
+        "Do you prefer to be indoors or outdoors?",
+        "Did you like to go outside when you were young?",
+        "Did you often go over to your friends' houses when you were young?",
+        "Is it important for children to play outdoors?"
+      ],
+      "useful_words": [
+        "fresh air",
+        "get some exercise",
+        "cooped up indoors",
+        "outdoor pursuits",
+        "reconnect with nature"
+      ]
+    },
+    {
+      "topic": "Television",
+      "questions": [
+        "Do you often watch TV?",
+        "Do you think children should watch TV?",
+        "Do you usually watch films on TV or at the cinema?",
+        "Would you like to act in a movie? Why or why not?"
+      ],
+      "useful_words": [
+        "channel-surf",
+        "prime-time",
+        "screen time",
+        "broadcast",
+        "couch potato"
+      ]
+    },
+    {
+      "topic": "Social Networking",
+      "questions": [
+        "How often do you use social networking applications?",
+        "Why do you use social networking apps?",
+        "What are the disadvantages of social networking apps?",
+        "Do you think it is good to make friends online?"
+      ],
+      "useful_words": [
+        "stay connected",
+        "online persona",
+        "privacy setting",
+        "follower count",
+        "digital footprint"
+      ]
+    },
+    {
+      "topic": "Internet",
+      "questions": [
+        "How often do you go online?",
+        "What do you use the internet for?",
+        "How do you get online?",
+        "Do you have your own computer?",
+        "Do you think children should be allowed unsupervised access to the internet?"
+      ],
+      "useful_words": [
+        "broadband",
+        "surf the web",
+        "Wi-Fi connection",
+        "parental controls",
+        "online safety"
+      ]
+    },
+    {
+      "topic": "Numbers",
+      "questions": [
+        "Are you good at remembering numbers?",
+        "Do you often use numbers in your daily life?",
+        "Is there any special number you like?",
+        "Are you good at maths?"
+      ],
+      "useful_words": [
+        "lucky number",
+        "keep track of",
+        "mental arithmetic",
+        "memorise",
+        "numerical"
+      ]
+    },
+    {
+      "topic": "Mathematics",
+      "questions": [
+        "Do you think mathematics is important?",
+        "Do you think it's difficult to learn mathematics well?",
+        "Are girls generally as good as boys at mathematics?",
+        "Do you often use a calculator?"
+      ],
+      "useful_words": [
+        "logical thinking",
+        "problem-solving",
+        "formula",
+        "equation",
+        "practical application"
+      ]
+    },
+    {
+      "topic": "Art",
+      "questions": [
+        "Do you like art?",
+        "Are you good at art?",
+        "Have you ever visited an art gallery?",
+        "Is there any artwork on the wall in your room?",
+        "Is art popular in your country?"
+      ],
+      "useful_words": [
+        "masterpiece",
+        "aesthetically pleasing",
+        "creative outlet",
+        "exhibition",
+        "brushstroke"
+      ]
+    },
+    {
+      "topic": "Friends",
+      "questions": [
+        "What kinds of people do you think you will make friends with?",
+        "Do you think you are a good friend to others?"
+      ],
+      "useful_words": [
+        "like-minded",
+        "hit it off",
+        "loyal",
+        "trustworthy",
+        "common ground"
+      ]
+    },
+    {
+      "topic": "Family & Friends",
+      "questions": [
+        "Do you spend much time with your family?",
+        "Who are you closest to in your family?",
+        "Do you prefer spending time with your family or friends?",
+        "Who is your best friend?",
+        "Are you still friends with people from your childhood?",
+        "Is family important in your country?"
+      ],
+      "useful_words": [
+        "close-knit",
+        "cherish",
+        "bond",
+        "childhood friend",
+        "quality time"
+      ]
+    },
+    {
+      "topic": "Borrowing and Lending",
+      "questions": [
+        "Have you borrowed books from others?",
+        "Have you ever borrowed money from others?",
+        "Do you like to lend things to others?",
+        "How do you feel when people don't return things they borrowed from you?"
+      ],
+      "useful_words": [
+        "return a favour",
+        "lend a hand",
+        "on loan",
+        "trustworthy",
+        "reliable"
+      ]
+    },
+    {
+      "topic": "Sharing",
+      "questions": [
+        "What things do you like to share with others?",
+        "Did your parents teach you to share when you were a child?",
+        "Have you shared anything with others recently?",
+        "What kinds of things are not suitable for sharing?"
+      ],
+      "useful_words": [
+        "generous",
+        "personal belongings",
+        "considerate",
+        "mutual benefit",
+        "selfless"
+      ]
+    },
+    {
+      "topic": "Museums",
+      "questions": [
+        "Have you ever been on a field trip to a museum to learn history?",
+        "Do you learn much history at school?",
+        "When was the last time you read a history publication?"
+      ],
+      "useful_words": [
+        "exhibit",
+        "artefact",
+        "informative",
+        "field trip",
+        "preserve history"
+      ]
+    },
+    {
+      "topic": "Scenery",
+      "questions": [
+        "Is there any beautiful scenery in your hometown?",
+        "Do you want to live in a house with a good view?",
+        "Do people like to take photos of beautiful scenery?",
+        "Why do people prefer to use mobile phones to take photos of beautiful scenery?"
+      ],
+      "useful_words": [
+        "breathtaking",
+        "picturesque",
+        "scenic spot",
+        "capture a moment",
+        "panoramic view"
+      ]
+    },
+    {
+      "topic": "Tea and Coffee",
+      "questions": [
+        "Do you prefer to drink tea or coffee?",
+        "Do you prepare tea or coffee for guests at home?",
+        "When was the last time you drank tea or coffee?"
+      ],
+      "useful_words": [
+        "brew",
+        "caffeine",
+        "acquired taste",
+        "aromatic",
+        "wind down with a cup of"
+      ]
+    },
+    {
+      "topic": "Hair",
+      "questions": [
+        "What's your favourite hairstyle?",
+        "How often do you get your hair cut?",
+        "Do you often change your hairstyle?"
+      ],
+      "useful_words": [
+        "haircut",
+        "hairdresser",
+        "trim",
+        "trendy",
+        "low-maintenance"
+      ]
+    },
+    {
+      "topic": "Jeans",
+      "questions": [
+        "Do you wear jeans?",
+        "How often do you wear jeans?",
+        "Why do you think jeans are popular in your country?"
+      ],
+      "useful_words": [
+        "denim",
+        "casual wear",
+        "versatile",
+        "durable",
+        "timeless"
+      ]
+    },
+    {
+      "topic": "Fashion",
+      "questions": [
+        "How important is fashion to you?",
+        "What influence has the fashion industry had in your country?",
+        "Are the fashions of today different from those of your parents' generation?",
+        "What effects do you think the fashion industry will have in the next ten years?",
+        "Do you like shoes?",
+        "Do you prefer comfortable shoes or good-looking shoes?",
+        "Do you like bags?"
+      ],
+      "useful_words": [
+        "trendsetter",
+        "fast fashion",
+        "statement piece",
+        "sustainable fashion",
+        "personal style"
+      ]
+    },
+    {
+      "topic": "The Area You Live In",
+      "questions": [
+        "Do you like the area that you live in?",
+        "What changes have there been in your area recently?",
+        "Do you know any famous people from your area?",
+        "Where do you like to go in that area?"
+      ],
+      "useful_words": [
+        "neighbourhood",
+        "up-and-coming",
+        "local amenities",
+        "redevelopment",
+        "close-knit community"
+      ]
+    },
+    {
+      "topic": "Meeting Places and Views",
+      "questions": [
+        "Where do people in your local area often choose to meet?",
+        "Do you prefer a meeting point that has appealing scenery?",
+        "Would you rather stay in a hotel or resort with a stunning view?",
+        "What is the most breathtaking landscape you have ever seen?",
+        "Do you take photos of great views when you visit somewhere?"
+      ],
+      "useful_words": [
+        "scenic spot",
+        "vantage point",
+        "meet up",
+        "landmark",
+        "picture-perfect"
+      ]
+    },
+    {
+      "topic": "Public Holidays",
+      "questions": [
+        "How many public holidays do you have in your country?",
+        "Do you think people need more public holidays?",
+        "How do you usually spend your holidays?",
+        "Which holiday is your favourite?"
+      ],
+      "useful_words": [
+        "day off",
+        "long weekend",
+        "festive season",
+        "time off work",
+        "annual celebration"
+      ]
+    },
+    {
+      "topic": "Photos / Pictures",
+      "questions": [
+        "Do you like to take photos?",
+        "Do you prefer to take photos yourself or to have other people take photos of you?",
+        "How often do you take photos?",
+        "In what situations do you take photos?",
+        "How do you keep your photos?"
+      ],
+      "useful_words": [
+        "snapshot",
+        "capture a moment",
+        "photo album",
+        "candid shot",
+        "back up photos"
+      ]
+    },
+    {
+      "topic": "Memory",
+      "questions": [
+        "Would you say you have a good memory?",
+        "What is your earliest memory?",
+        "Have you ever forgotten an important date, such as a birthday, anniversary, or deadline?",
+        "Which do you usually remember more clearly, happy moments or sad moments?",
+        "Do you know anyone who has a 'photographic memory'?"
+      ],
+      "useful_words": [
+        "vivid memory",
+        "slip one's mind",
+        "jog one's memory",
+        "reminisce",
+        "memorable"
+      ]
+    },
+    {
+      "topic": "Transportation",
+      "questions": [
+        "What's the most popular means of transportation in your hometown?",
+        "Can you compare the advantages of planes and trains?",
+        "How often do you take the bus?",
+        "Is driving to work popular in your country?",
+        "Would you ride a bike to work in the future?",
+        "Do you prefer public transportation or private transportation?",
+        "Do you think people will drive more in the future?",
+        "What will become the most popular means of transportation in your country in the future?"
+      ],
+      "useful_words": [
+        "commute",
+        "public transit",
+        "fuel-efficient",
+        "rush hour",
+        "eco-friendly transport"
+      ]
+    },
+    {
+      "topic": "Crowded Places",
+      "questions": [
+        "What places do you think are often crowded?",
+        "When was the last time you were in a crowded place?",
+        "How do you feel when you are in crowded places?",
+        "Do you prefer to go to crowded places or places with few people?"
+      ],
+      "useful_words": [
+        "packed",
+        "claustrophobic",
+        "bustling",
+        "elbow room",
+        "avoid the crowds"
+      ]
+    },
+    {
+      "topic": "Going Out",
+      "questions": [
+        "Do you often go out in the evenings?",
+        "What do you like to do when you go out?",
+        "Do you prefer going out on your own or with friends?",
+        "How often do you go out in a week?",
+        "Where do most young people like to go out in your country?"
+      ],
+      "useful_words": [
+        "hang out",
+        "nightlife",
+        "socialise",
+        "unwind",
+        "on the town"
+      ]
+    },
+    {
+      "topic": "Cycling",
+      "questions": [
+        "How popular are bicycles in your hometown?",
+        "How often do you ride a bicycle?",
+        "Do you think bicycles are suitable for all ages?",
+        "What are the advantages of a bicycle compared to a car?",
+        "Do you think it's safe to ride a bicycle in the city?"
+      ],
+      "useful_words": [
+        "cycle lane",
+        "eco-friendly",
+        "pedal",
+        "commute by bike",
+        "road safety"
+      ]
+    },
+    {
+      "topic": "Running & Exercise",
+      "questions": [
+        "Do you like running?",
+        "Have you ever taken a running class?",
+        "When was your last long run?",
+        "What do you need in order to run?",
+        "Where do you think is a good place to run?",
+        "Do you think running is a good way to stay healthy?",
+        "Do you like watching running races on TV?"
+      ],
+      "useful_words": [
+        "stamina",
+        "break a sweat",
+        "cardiovascular fitness",
+        "pace oneself",
+        "warm up"
+      ]
+    },
+    {
+      "topic": "Water Sports",
+      "questions": [
+        "Have you done any water sports?",
+        "What water sports are popular in your country?",
+        "What kind of water sports do people want to try?"
+      ],
+      "useful_words": [
+        "swim",
+        "surf",
+        "adrenaline rush",
+        "coastal area",
+        "water safety"
+      ]
+    },
+    {
+      "topic": "Walking",
+      "questions": [
+        "Do you walk a lot?",
+        "Do you think people walk more than they did in the past?",
+        "Do you think people will walk more often in the future?"
+      ],
+      "useful_words": [
+        "stroll",
+        "pedestrian-friendly",
+        "brisk walk",
+        "on foot",
+        "walkable neighbourhood"
+      ]
+    },
+    {
+      "topic": "Sky",
+      "questions": [
+        "How often do you look at the sky?",
+        "Do you prefer the sky in the morning or the sky at night?",
+        "Can you see the moon and stars at night where you live?",
+        "Is there a good place to look at the sky where you live?"
+      ],
+      "useful_words": [
+        "stargazing",
+        "clear sky",
+        "light pollution",
+        "sunrise/sunset",
+        "awe-inspiring"
+      ]
+    },
+    {
+      "topic": "Weather",
+      "questions": [
+        "Do you prefer dry or wet weather?",
+        "What kind of weather do you like most?",
+        "What's your favourite season?",
+        "What kind of weather is typical in your hometown?"
+      ],
+      "useful_words": [
+        "humid",
+        "mild climate",
+        "downpour",
+        "seasonal change",
+        "weather forecast"
       ]
     }
   ],
